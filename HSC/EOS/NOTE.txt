@@ -1,0 +1,5 @@
+fino 5.4 escluso ISOTROPO
+
+5.4 fino a 8.8 include SMETTICO
+
+da 8.8 esluso in su CRISTALLO

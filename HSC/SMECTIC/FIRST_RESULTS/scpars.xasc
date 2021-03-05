@@ -1,0 +1,73 @@
+#se arriva a steps termina e lascia i file restart-0 restart-1
+#se arriva a totsteps (> steps) cancella i restart-[0,1] e crea i file restart-final-[0,1]
+#questo serve per lo scheduler poiché se questo non trova i file restarot-[0,1] non 
+#simtype (0=NTV 1=NPT 2=NPT-xyz 3=GC 4=SUS) 
+simtype: 2    
+#inifile  totsteps  curStep  seed  sigma  rcut  delta use_nnl_ll (0=LL 1=NNL 2=BOTH) rebuild_method
+iniconf: start.cnf 
+totsteps: 1#1000   
+curStep: 0  
+seed: -1 
+sigma: 4.4
+rcut: 4.4 
+delta: 1.0  
+use_nnl_ll: 1 # use NNL for boxes                   
+#use_nnl_ll_p: 0 # use LL for patches
+nnl_reb_method: 1
+# tailcorr  extpot num. particles  Lx Ly Lz
+tailcorr: 0 
+extpot: 1
+N: 1000   
+Lx: 52.5992 
+Ly: 52.5992 
+Lz: 52.5992
+#P   T  deltra vmax
+P: 3.5866747236895966
+T: 1.0
+deltra: 1.0
+vmax:  0.0002673
+#savemeas savesnap saverest
+savemeas: 1000       
+savesnap: 50000
+saverest: 10000
+#adjsteps outsteps
+adjsteps: 100000
+outsteps: 2000
+#resettra resetvol targetrho maxmsd
+resetaccept: 5000
+resetacceptVol: 5000    
+targetrho: -1.0
+maxmsd:  -1.0 
+#zeta susnmin susnmax npav nexc
+zeta: 0.00001   
+susnmin: 500     
+susnmax: 10000    
+npav: 100 
+nexc: 10
+#if simtype=3=GC an histogram is saved  
+#model specific pars here
+#delrot semi-axes a, b, c
+delrot: 0.2
+a:1.94 
+b:0.67
+c:0.67
+#aligning potential strength
+k: 10000.0
+#n1 n2 n3 expand_factor (n1,n2,n3 = number of HEs along each dir)  
+n1: 5 
+n2: 15 
+n3: 15 
+expand_factor: 2.0
+#creation_method(0 use vol and set par; 1=use n1*n2*n3 and set vol, 2/3=as 0/1 but do not set number of par.)
+creation_method: 1
+#rotation move method
+rotmovemethod: 1
+#sigma patch / number of patches / rcut patch / delta patch
+sigpatch: 0.35    
+numpatch: 50
+rcutp: 0.351
+deltap: 0.2
+savemgl: 1
+polydisperse: 1
+lambdasmectic: -1.0 # -1 means switched off
+semiaxfile: semiaxes.dat
