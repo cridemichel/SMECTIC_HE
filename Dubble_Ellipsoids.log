@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.7)  5 MAR 2021 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.7)  5 MAR 2021 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -341,22 +341,22 @@ File: mceos.pdf Graphic file (type pdf)
 <use mceos.pdf>
 Package pdftex.def Info: mceos.pdf  used on input line 210.
 (pdftex.def)             Requested size: 444.59857pt x 157.18092pt.
-[12 <./z_scan_high_2.png (PNG copy)>] [13 <./mceos.pdf>] [14] (./Dubble_Ellipsoids.bbl [15] [16] [17])
+[12 <./z_scan_high_2.png (PNG copy)>] [13 <./mceos.pdf>] [14] [15] (./Dubble_Ellipsoids.bbl [16] [17])
 
 Class revtex4-1 Warning: Command \draft is obsolete;
 Invoke option draft instead..
 
 [18] (./Dubble_Ellipsoids.aux) ) 
 Here is how much of TeX's memory you used:
- 7209 strings out of 480471
- 139656 string characters out of 5899411
+ 7208 strings out of 480471
+ 139646 string characters out of 5899411
  387466 words of memory out of 5000000
- 23183 multiletter control sequences out of 15000+600000
+ 23182 multiletter control sequences out of 15000+600000
  541074 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,16n,46p,2314b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dubble_Ellipsoids.pdf (18 pages, 16552125 bytes).
+Output written on Dubble_Ellipsoids.pdf (18 pages, 16552351 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams
