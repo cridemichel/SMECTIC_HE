@@ -14,14 +14,14 @@
 %\documentclass[aip,reprint]{revtex4-1}
 \usepackage{amsmath}
 \usepackage{graphicx}
-%\usepackage{siunitx}
+\usepackage{siunitx}
 %\usepackage{upgreek}
 %\usepackage[math-style=ISO]{unicode-math}
 %\usepackage[upright]{fourier}
 %\usepackage{newtxmath}
 \usepackage{xcolor}
 \raggedbottom 
-
+\def\nm{\,\si{\nano\meter}}
 \draft % marks overfull lines with a black rule on the right
 
 \begin{document}
@@ -163,13 +163,13 @@ S_2= \frac{\int f(\omega)P(\omega)\sin(\omega)d\omega}{\int f(\omega)\sin(\omega
 %------------------------------------------------------------------------------------------------------------------
 \subsubsection{Characterization of the Smectic Phase}
 %------------------------------------------------------------------------------------------------------------------
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering{\includegraphics[width=0.5\linewidth]{callie_6.png}}
 \caption{(a) Experimental structure factor along the field direction shown by red dashed line in Fig.\ref{z_scan}(c) (blue circles) along with the fit (red line) using the Nallet model described by eq.\ref{eq1:} for the smectic phase at a height $Z=11.5mm$ from the bottom of the capillary. (b) Variation of the Calli\`{e} parameter as a function of $Z$ for the smectic phase. The red dashed line is a guide to the eye but not a fit.}
 \label{callie}
 \end{figure}
 %----------------------------------------------------------------
-\begin{figure*}[h]
+\begin{figure*}[ht]
 \centering{\includegraphics[width=0.95\textwidth]{Figure_Fspace_smectic_5.png}}
 \caption{Schematic representation of (a) the alignment of the ellipsoids in an external field in real space. Since they align with their short axes being parallel to the field direction, they get confined in 2D planes (shown in gray) perpendicular to the direction of the field, (b) the corresponding 3D Fourier space representation of the structure factor variation in the form of a cylinder. (c) Once these layers start to get correlated, sharp Bragg spots start to appear on the axis of this cylindrical structure factor. The orange plane represents the detector plane. (d) Expected diffraction pattern on the detector plane. The sharp Bragg spots become arcs because of polycrystallinity.}
 \label{Fspace_smectic}
@@ -205,6 +205,22 @@ Now depending on the direction at which the detector plane intersects the Fourie
 %----------------------------------------------------------------------------------------------------------------
 In contrast to the particles with lower aspect ratio, the ones with higher aspect ratio show only two different phases in the presence of the external field. At the top of the capillaries a para-nematic phase is observed, followed by a nematic phase at the bottom (Fig.~\ref{z_scan_high}(a),(b)). In this case, the diffuse scattering due to the formation of the spherocylindrical structure factor is much more prominent in the nematic phase (Fig.~\ref{z_scan_high}(b)) itself. Fig.~\ref{z_scan_high}(c) represents the one dimensional intensity profile for the nematic and para-nematic phase along the direction of the field. The nearest neighbor distance, \emph{d}, along the direction of the field increases with $Z$ in a similar way as that of sample $E1$ (Fig.\ref{z_scan_high}(d)). In contrast, FWHM is increasing monotonically since Sample $E2$ does not show any smectic phase (Fig.~\ref{z_scan_high}(d)). \par
 %----------------------------------------------------------------------------------------------------------------
+\subsection{Computer Simulations}
+\begin{figure*}[ht]
+\centering{\includegraphics[width=0.95\textwidth]{mceos.pdf}}
+\caption{Monte Carlo Simulations}
+\label{fig:sim}
+\end{figure*}
+
+We carried out Monte Carlo (MC) simulations of polydisperse hard spherocylinders and uniaxial hard ellipsoids as shown in Figs.~\ref{fig:sim}c and ~\ref{fig:sim}d, respectively.
+The length $L$ and the diameter $D$ of each particle were randomly drawn from a gaussian distribution as follows:
+\begin{eqnarray}
+  L &=& \sigma_L\,\xi_1 + L_0\\
+  D &=& \sigma_D\,\xi_2 + D_0
+\end{eqnarray}
+where $\xi_i$ with $i=1,2$ is a zero-mean unit-variance gaussian, $L_0=316 \nm$, $\sigma_L=26.3 \nm$ , $D_0=54 \nm$ and $\sigma_D=6.98 \nm$
+For both systems we simulated $N=1125$ in a orthorombic box with periodic boundary conditions.
+
 \section*{Conclusions}
 %%%----------------------------------------------------------------------------------------------------------------
 In this article we have discussed the polymorphism exhibited by hematite-silica core-shell ellipsoidal particles undergoing field-directed self-assembly. We report the existence of a smectic phase which has not been predicted before for ellipsoidal particles. Earlier studies based on simulations mainly focused on the phase behavior of ellipsoids in the absence of any external field. In the present study we have applied an external field to promote the anisotropic interactions and reduce the rotational degrees of freedom of the particles. The smectic phase formed here is the outcome of the alignment of the magnetic moments along the field direction, which also makes it to be an oblate type in spite of the fact that the particles are prolate in shape.\par
@@ -225,11 +241,12 @@ A transmission electron microscope (TEM) (TEM-CM100 microscope from Philips oper
 %---------------------------------------------------------------------
 For SAXS measurements, dispersions of sample $E1$ at 55wt\% and sample $E2$ at 50wt\% were placed in round capillaries with an internal diameter of 1mm (Mark tubes) that were flame sealed and stored vertically and left undisturbed for 6 months to promote particle sedimentation. Gravity induced sedimentation in the colloidal dispersions results in concentration gradients that leads to the formation of different self-assembled structures. In order to investigate the self-assembled structures, the sedimentation profiles were scanned over the full length of the capillary along the vertical directions with $Z=0$ being set at the bottom of the capillaries. SAXS measurements were performed at BM26B beam-line at ESRF, Grenoble, where a $\mu$rad-SAXS set-up which involves compound refractive lenses~\cite{petukhov2015particle} was employed. The 13 kev X-ray beam was focused on a CCD X-ray detector which was placed at a distance of 7.45 m from the sample. The data have been recorded with a PILATUS 1M detector with pixel size of 172$\times$172 $\mu$m. The detector was protected from the direct X-ray beam using a wedge-shaped beam-stop that shades the detector. The capillaries were oriented vertically with their long axis (100 mm) parallel to the gravitational field. All the measurements were carried out in presence of an external magnetic field (500 mT) which was applied after the sedimentation using a permanent magnet. The direction of the magnetic field, X-ray beam and the gravity are perpendicular to each other as shown in Fig.~\ref{TEM}(c).
 %%%----------------------------------------------------------------------------------------------------------------
+\section{Computational Methods}
+
 \section{Acknowledgments}
 %%%----------------------------------------------------------------------------------------------------------------
 Financial support from the European Research Council (ERC-339678-COMPASS), and the Knut and Alice Wallenberg Foundation (project grant KAW 2014.0052) is gratefully acknowledged. D. Hermida Merino is thanked for his technical support during the SAXS measurements. Crispin Hetherington is acknowledged for TEM measurement. The Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO) is acknowledged for the provided beam-time.
 %%%----------------------------------------------------------------------------------------------------------------
-
 
 % If in two-column mode, this environment will change to single-column format so that long equations can be displayed. 
 % Use only when necessary.

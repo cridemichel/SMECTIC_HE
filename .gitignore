@@ -1,8 +1,8 @@
-**/*aux
-**/*bbl
-**/*log
-**/*fdb_latexmk
-**/*fls
+*aux
+*bbl
+*log
+*fdb_latexmk
+*fls
 **/cnf-*
 Session.vim
 **/*synctex.gz
