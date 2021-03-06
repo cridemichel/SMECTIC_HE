@@ -211,17 +211,54 @@ In contrast to the particles with lower aspect ratio, the ones with higher aspec
 \centering{\includegraphics[width=0.95\textwidth]{mceos.pdf}}
 \caption{Monte Carlo Simulations}\label{fig:sim}
 \end{figure*}
+Hematite-silica core-shell particles of aspect ration $\rho_1$
+have a rather peculiar hybrid shape, where their midsection is more cylinder-like, as the one of hard spherocylinders 
+(HSCs), while their ends resemble more those of uni-axial hard ellipsoids (HEs) as shown in Fig.\ref{z_scan}(a).
+In contrast, particles with larger aspect ratio $\rho_2$ are overall more similar to HEs (see~\ref{z_scan}(b)).
+Hence, we decided to study both HSC and HE, as shown in Figs.~\ref{fig:sim}c and~\ref{fig:sim}d, under the effect of an external
+field, which mimics the magnetic field in the experiments, by means of Monte Carlo (MC) simulations.
 
-We carried out Monte Carlo (MC) simulations of polydisperse hard spherocylinders and uniaxial hard ellipsoids as shown in Figs.~\ref{fig:sim}c and~\ref{fig:sim}d, respectively.
+Since real hematite-silica particles are polydisperse in our simulations we employed polydisperse HSCs and HEs.
 The length $L$ and the diameter $D$ of each particle were randomly drawn from a gaussian distribution as follows:
 \begin{eqnarray}
   L &=& \sigma_L\,\xi_1 + L_0\\
   D &=& \sigma_D\,\xi_2 + D_0
 \end{eqnarray}
 where $\xi_i$ with $i=1,2$ is a zero-mean unit-variance gaussian, $L_0=316 \nm$, $\sigma_L=26.3 \nm$, $D_0=54 \nm$ and $\sigma_D=6.98 \nm$
+In the following lengths will be expressed in units of $100\nm$. 
 For both systems we simulated $N=1125$ in a orthorombic box with periodic boundary conditions.
-To build the equation of state (EOS) in Figs.~\ref{fig:sim}a and~\ref{fig:sim}b we performed MC in the isobaric ensemble (NPT) where the three
-dimensions of the orthorhombic box were allowed to change independently in order to ease the emergence of mesophases.
+The external field applied to HE and HSC induces the particles to align perpendicularly to it with a tunable strength.
+Its action is implemented through the following external potential acting on each particle $i$
+\begin{equation}
+v_{ext}^i = k {( \mathbf{u}_i\cdot \hat{\mathbf{n}} )}^2
+\end{equation}
+where $\hat{\mathbf{n}}$ is a unit vector parallel to the field, $\mathbf{u}_i$ is a unit vector parallel to the symmetry axis of the particle,
+and $k$ is parameter by which one can set the strength of the alignment. In our simulation we used $k=10000 k_B T$ since in the real
+system the magnetic field induce a rather strong alignment of hematite-silica core-shell particles. 
+
+To build the equation of state (EOS) in Figs.~\ref{fig:sim}a and~\ref{fig:sim}b we performed MC simulations in the isobaric ensemble (NPT) where the three
+dimensions of the orthorhombic box were allowed to change independently in order to ease the formation of mesophases.
+Figures~\ref{fig:sim}(a,b) show the EOS of HSC and HE, it can be seen that HSC exhibit three phases: a nematic (N) phase, where the HSC are aligned
+perpendicularly to the external field, a smectic A phase (SmA) where the layers are perpendicular to the field and a uniaxial columnar crystal phase (K).
+Interestingly, the transition from the N to the SmA phase is not associate with a significant variation of the volume fraction of the system, thus
+suggesting that this transition is either very weakly first order or second order. 
+
+Differently, the transition from the SmA phase to the crystal phase
+i markedly second order as expected. The phase behavior of HE is less rich, since they exhibit just a nematic phase throughout all pressures considered
+in the simulations.
+As insets of Figs.~\ref{fig:sima}(a) and (b) a snapshot of a configuration
+taken at a pressure such that $\phi=0.50$ and the structure factor 
+calculated for the same pressure are shown.  We note that the structure factor which we calculated from the simulations
+include the form factor and correspond to $\mathbf{q}$-values lying onto the plane identified by the external field (B) and a direction perpendicular
+to it ($z$-axis), so that a direct comparison with experiments can be made.
+
+In the snapshot of HSCs a clear lamellar ordering is apparent which reflects in the Bragg peaks present in the structure factor.
+The distance between Bragg peaks is equal to $2\pi/d$ with $d\approx 1 r.u.$, i.e. about $D$, consistently with the experimental structure
+factor shown in Fig.~\ref{z_scan}(c).
+On the contrary, the snapshot of HEs is a prototypical example of a nematic phase
+whereas no lamellar ordering is present. The structure factor similarly reflect the absence of any layering in the system and it can 
+be straightforwardly compared with the experimental one show in Fig.~\ref{z_scan}(b).
+
 
 \section*{Conclusions}
 %%%----------------------------------------------------------------------------------------------------------------
@@ -293,4 +330,5 @@ Financial support from the European Research Council (ERC-339678-COMPASS), and t
 
 \end{document}
 %
+
 % ****** End of file aiptemplate.tex ******
