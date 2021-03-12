@@ -224,16 +224,16 @@ The length $L$ and the diameter $D$ of each particle were randomly drawn from a 
   L &=& \sigma_L\,\xi_1 + L_0\\
   D &=& \sigma_D\,\xi_2 + D_0
 \end{eqnarray}
-where $\xi_i$ with $i=1,2$ is a zero-mean unit-variance gaussian, $L_0=316 \nm$, $\sigma_L=26.3 \nm$, $D_0=54 \nm$ and $\sigma_D=6.98 \nm$
+where $\xi_i$ with $i=1,2$ is a zero-mean unit-variance gaussian, $L_0=316 \nm$, $\sigma_L=26.3 \nm$, $D_0=108 \nm$ and $\sigma_D=6.98 \nm$
 In the following lengths will be expressed in units of $100\nm$. 
 For both systems we simulated $N=1125$ in a orthorombic box with periodic boundary conditions.
 The external field applied to HE and HSC induces the particles to align perpendicularly to it with a tunable strength.
 Its action is implemented through the following external potential acting on each particle $i$
 \begin{equation}
-v_{ext}^i = k {( \mathbf{u}_i\cdot \hat{\mathbf{n}} )}^2
+v_{ext}^i = k\, {( \mathbf{u}_i\cdot \hat{\mathbf{n}} )}^2
 \end{equation}
 where $\hat{\mathbf{n}}$ is a unit vector parallel to the field, $\mathbf{u}_i$ is a unit vector parallel to the symmetry axis of the particle,
-and $k$ is parameter by which one can set the strength of the alignment. In our simulation we used $k=10000 k_B T$ since in the real
+and $k$ is parameter by which one can set the strength of the alignment. In our simulation we used $k=10^4\, k_B T$ since in the real
 system the magnetic field induce a rather strong alignment of hematite-silica core-shell particles. 
 
 To build the equation of state (EOS) in Figs.~\ref{fig:sim}a and~\ref{fig:sim}b we performed MC simulations in the isobaric ensemble (NPT) where the three
@@ -284,6 +284,14 @@ A transmission electron microscope (TEM) (TEM-CM100 microscope from Philips oper
 For SAXS measurements, dispersions of sample $E1$ at 55wt\% and sample $E2$ at 50wt\% were placed in round capillaries with an internal diameter of 1mm (Mark tubes) that were flame sealed and stored vertically and left undisturbed for 6 months to promote particle sedimentation. Gravity induced sedimentation in the colloidal dispersions results in concentration gradients that leads to the formation of different self-assembled structures. In order to investigate the self-assembled structures, the sedimentation profiles were scanned over the full length of the capillary along the vertical directions with $Z=0$ being set at the bottom of the capillaries. SAXS measurements were performed at BM26B beam-line at ESRF, Grenoble, where a $\mu$rad-SAXS set-up which involves compound refractive lenses~\cite{petukhov2015particle} was employed. The 13 kev X-ray beam was focused on a CCD X-ray detector which was placed at a distance of 7.45 m from the sample. The data have been recorded with a PILATUS 1M detector with pixel size of 172$\times$172 $\mu$m. The detector was protected from the direct X-ray beam using a wedge-shaped beam-stop that shades the detector. The capillaries were oriented vertically with their long axis (100 mm) parallel to the gravitational field. All the measurements were carried out in presence of an external magnetic field (500 mT) which was applied after the sedimentation using a permanent magnet. The direction of the magnetic field, X-ray beam and the gravity are perpendicular to each other as shown in Fig.~\ref{TEM}(c).
 %%%----------------------------------------------------------------------------------------------------------------
 \section{Computational Methods}
+All the results from simulations were obtained by performing up to $4\times10^7$ MC steps and by discarding the initial equilibration stage.
+The initial configurations, which we used to build the EOS, were obtained by equilibrating the system at low volume fractions to have an isotropic
+sample. To calculate the static structure factor we carried out NTV MC simulations starting from an initial configuration taken 
+from NPT simulations for a $P$ such that $\phi\approx 0.50$. Aiming at a more direct comparison with experimental results we calculated
+the static structure factors be replacing each particle (HSC or HE) with a random set of scattering points of fixed density $\rho_m$. We found
+that results does not change significantly by using values of $\rho_m$ greater than about $7\times 10^{-5} \nm^{-3}$.% CARLO PLEASE CHECK THIS
+Further details on computer simulations can be found in the Supporting Information.
+
 \section{Acknowledgments}
 %%%----------------------------------------------------------------------------------------------------------------
 Financial support from the European Research Council (ERC-339678-COMPASS), and the Knut and Alice Wallenberg Foundation (project grant KAW 2014.0052) is gratefully acknowledged. D. Hermida Merino is thanked for his technical support during the SAXS measurements. Crispin Hetherington is acknowledged for TEM measurement. The Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO) is acknowledged for the provided beam-time.
