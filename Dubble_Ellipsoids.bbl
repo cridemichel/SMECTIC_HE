@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{40}%
+\begin{thebibliography}{42}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -463,6 +463,24 @@
   {Current opinion in colloid \& interface science}\ }\textbf {\bibinfo
   {volume} {20}},\ \bibinfo {pages} {272} (\bibinfo {year} {2015})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Vega}\ and\ \citenamefont
+  {Lago}(1994)}]{VegaHSC1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Vega}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Lago}},\
+  }\href {\doibase https://doi.org/10.1016/0097-8485(94)80023-5} {\bibfield
+  {journal} {\bibinfo  {journal} {Computers \& Chemistry}\ }\textbf {\bibinfo
+  {volume} {18}},\ \bibinfo {pages} {55} (\bibinfo {year} {1994})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Perram}\ and\ \citenamefont
+  {Wertheim}(1985)}]{PerramJCP1985}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {Perram}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Wertheim}},\ }\href {\doibase https://doi.org/10.1016/0021-9991(85)90171-8}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Computational
+  Physics}\ }\textbf {\bibinfo {volume} {58}},\ \bibinfo {pages} {409}
+  (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Martchenko}\ \emph {et~al.}(2016)\citenamefont
   {Martchenko}, \citenamefont {Crassous}, \citenamefont {Mihut}, \citenamefont
   {Bialik}, \citenamefont {Hirt}, \citenamefont {Rufier}, \citenamefont
