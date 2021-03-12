@@ -8,3 +8,4 @@ Session.vim
 **/*synctex.gz
 **/*.swp
 .viminfo
+.DS_Store
