@@ -215,8 +215,11 @@ Hematite-silica core-shell particles of aspect ratio $\rho_1$
 have a rather peculiar hybrid shape, where their midsection is more cylinder-like, as the one of hard spherocylinders 
 (HSCs), while their ends resemble more those of uni-axial hard ellipsoids (HEs) as shown in Fig.\ref{z_scan}(a).
 In contrast, particles with larger aspect ratio $\rho_2$ are overall more similar to HEs (see~\ref{z_scan}(b)).
-Hence, we decided to study both HSC and HE, as shown in Figs.~\ref{fig:sim}c and~\ref{fig:sim}d, under the effect of an external
-field, which mimics the magnetic field in the experiments, by means of Monte Carlo (MC) simulations.
+Hence, to model hematatie-silica particles with $\rho_1=2.82$, we decided to study both HSC and HE, as shown in Figs.~\ref{fig:sim}c and~\ref{fig:sim}d, 
+under the effect of an external field, which mimics the magnetic field in the experiments, by means of Monte Carlo (MC) simulations.
+We note that hematite-silica core-shell particles are charged but we can expect that the resulting repulsive interaction between them 
+could be accounted for by just considering a larger particle volume. Hence we can expect a shift of phase boundaries to larger packing fractions
+without altering qualitatively the whole phase behavior.
 
 Since real hematite-silica particles are polydisperse in our simulations we employed polydisperse HSCs and HEs.
 The length $L$ and the diameter $D$ of each particle were randomly drawn from a gaussian distribution as follows:
@@ -234,7 +237,7 @@ v_{ext}^i = k\, {( \mathbf{u}_i\cdot \hat{\mathbf{n}} )}^2
 \end{equation}
 where $\hat{\mathbf{n}}$ is a unit vector parallel to the field, $\mathbf{u}_i$ is a unit vector parallel to the symmetry axis of the particle,
 and $k$ is parameter by which one can set the strength of the alignment. In our simulation we used $k=10^4\, k_B T$ since in the real
-system the magnetic field induce a rather strong alignment of hematite-silica core-shell particles. 
+system the magnetic field induces a rather strong alignment of hematite-silica core-shell particles. 
 
 To build the equation of state (EOS) in Figs.~\ref{fig:sim}a and~\ref{fig:sim}b we performed MC simulations in the isobaric ensemble (NPT) where the three
 dimensions of the orthorhombic box were allowed to change independently in order to ease the formation of mesophases.
@@ -257,7 +260,10 @@ The distance between Bragg peaks is equal to $2\pi/d$ with $d\approx 1\,\hbox{r.
 factor shown in Fig.~\ref{z_scan}(c) for the smectic phase of hematite-silica particles.
 On the contrary, the snapshot of HEs is a prototypical example of a nematic phase
 whereas no lamellar ordering is present. The structure factor similarly reflect the absence of any layering in the system and it can 
-be straightforwardly compared with the experimental one show in Fig.~\ref{z_scan}(b).
+be straightforwardly compared with the experimental one show in Fig.~\ref{z_scan}(b). 
+Concerning the formation of the smectic phase only with HSCs, this result can be understood by noting
+that the cylinder-like midsection of HSCs surely favors the emergence of such a lamellar phase,
+even if some amount of polydispersity is present in the system. 
 
 According to our numerical results cylinder-like midsection is crucial to induce the formation of a lamellar phase. 
 Indeed, hematite-silica particles with smaller aspect ratio do exhibit a smectic phase due to their cylinder-like midsection,
