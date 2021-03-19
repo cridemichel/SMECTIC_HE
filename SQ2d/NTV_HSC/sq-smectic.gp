@@ -106,9 +106,9 @@ set my2tics default
 set mcbtics default
 set mrtics default
 set nomttics
-set xtics border in scale 1,0.5 mirror norotate  autojustify
+set xtics border in scale 1,0.5 mirror norotate  offset character 0, -1, 0 autojustify
 set xtics  norangelimit autofreq  font "Helvetice,40"
-set ytics border in scale 1,0.5 mirror norotate  autojustify
+set ytics border in scale 1,0.5 mirror norotate  offset character -1, 0, 0 autojustify
 set ytics  norangelimit autofreq  font "Helvetice,40"
 set ztics border in scale 1,0.5 nomirror norotate  autojustify
 set ztics  norangelimit autofreq  font "Helvetice,40"
@@ -131,7 +131,7 @@ set xlabel "B"
 set xlabel  offset character 0, -4, 0 font "Helvetice,60" textcolor lt -1 norotate
 set x2label "" 
 set x2label  font "" textcolor lt -1 norotate
-set xrange [ -20.0000 : 20.0000 ] noreverse nowriteback
+set xrange [ -24.0000 : 16.0000 ] noreverse nowriteback
 set x2range [ * : * ] noreverse writeback
 set ylabel "z" 
 set ylabel  offset character -10, 0, 0 font "Helvetice,60" textcolor lt -1 rotate
@@ -162,7 +162,8 @@ set pm3d interpolate 1,1 flush begin noftriangles noborder corners2color mean
 set pm3d clip z 
 set pm3d nolighting
 set palette positive nops_allcF maxcolors 0 gamma 1.5 color model RGB 
-set palette rgbformulae 7, 5, 15
+set palette defined ( 0 0 0 0, 0.25 0.5804 0 0.8275, 0.5 0.9333 0.5098 0.9333,\
+     1 1 1 1 )
 set colorbox default
 set colorbox vertical origin screen 0.9, 0.2 size screen 0.05, 0.6 front  noinvert bdefault
 set style boxplot candles range  1.50 outliers pt 7 separation 1 labels auto unsorted
