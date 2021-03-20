@@ -3,7 +3,7 @@
 \usepackage{graphicx}
 \usepackage{subfig}
 
-\title{ACS Nano}
+\title{Supplementary Material (Simulations)}
 %\author{carloandrea.defilippo }
 \date{March 2021}
 
@@ -68,7 +68,11 @@ The spatial characterization of the phases can be further analyzed by  the calcu
 
 where $\delta(x)$ is the Dirac delta function. This quantity has been calculated averaging on the same configurations used for the structure factor \ref{eq:S_q}, obtaining the pair distribution function on a plane parallel to the magnetic field $yz$ and on the perpendicular plane $xz$. The results are represented in Fig. \ref{fig:gyz_B} and Fig. \ref{fig:gxz_B}. The smectic phase is evident: it can be noticed the different planes along the y axis (Fig. \ref{fig:gyz_B}) and the 2D liquid behaviour in-plane (Fig. \ref{fig:gxz_B}).
 Differently the radial distribution function of HEs does not show any layering for all state points studies.
-A typical example of $g(r)$ for HEs is shown in Fig.\ref{fig:gyz_B_HE} (yz-plane) and Fig.~\ref{fig:gxz_B_HE} (xz-plane). 
+A typical example of $g(r)$ for HEs is shown in Fig.\ref{fig:gyz_B_HE} (yz-plane) and Fig.~\ref{fig:gxz_B_HE} (xz-plane). The anisotropy and structuring shown in Fig.\ref{fig:gyz_B_HE} reflect the alignment of HEs due
+to the magnetic field. Differently, the anisotropy of the radial distribution function calculated
+onto a plane perpendicular to the magnetic field, which is shown in Fig.~\ref{fig:gxz_B_HE}, is due to 
+orientational ordering of HEs, which builds up at volume fraction higher than $\approx 0.45$. 
+More details on this are provided below (see Section ``Smectic and nematic ordering'').
 
 \begin{figure}
     \begin{center}
@@ -121,7 +125,7 @@ To further confirm the isotropy of this phase, it has been calculated the struct
 
 \begin{figure}
     \centering
-    \includegraphics[width=1.2\columnwidth]{Syz_noB.png}
+    \includegraphics[width=1.1\columnwidth]{Syz_noB.png}
     \caption{Structure factor $S(0, q_y, q_z)$ of the system in absence of magnetic field.}
     \label{fig:Syz_noB}
 \end{figure}
@@ -149,7 +153,7 @@ Likewise the case with a magnetic field, it has been calculated the pair distrib
 
 \newpage
 
-\section{Smectic order parameter}
+\section{Smectic and nematic ordering}
 
 A convenient way to check for the emergence of a smectic phase in our computer simulations 
 is to calculate the smectic order parameter $\tau_1$ defined as follows:
@@ -163,16 +167,30 @@ field and $d$ is the thickness of the smectic layers.
 In order to compute $\tau_1$ for each configuration we find the optimal value of $d$, i.e. 
 the value which maximizes $\tau_1$.
 
-The values of $\tau_1$ for both HSCs and HEs and for all pressures studied is shown in Fig.~\ref{fig:smordpar}. It can be seen that HSCs exhibit a range of volume fractions where 
+The values of $\tau_1$ for both HSCs and HEs and for all pressures studied is shown in Fig.~\ref{fig:ordpars}(top). It can be seen that HSCs exhibit a range of volume fractions where 
 a smectic layer ordering is present and which coincide with the green state points shown in Fig. 7(a)
 in the main test. On the contrary no evidence of layering emerges in the simulation of HEs.
 
 \begin{figure}
     \centering
     \includegraphics[width=1\columnwidth]{smordpar.png}
-    \caption{Smectic order parameter $\tau_1$ for HSCs and HEs.}
-    \label{fig:smordpar}
+    \includegraphics[width=1\columnwidth]{nemop.png}  
+    \caption{Smectic ($\tau_1$, top) and nematic ($S$, bottom) order parameters for HSCs and HEs.}
+    \label{fig:ordpars}
 \end{figure}
+
+We also calculated the nematic order parameter $S$ related to the symmetry axis of HSC and HE, which
+is defined as the largest eigenvalue of the order tensor $Q$, whose components are:
+\begin{equation}
+Q_{\alpha\beta} = \frac{1}{N} \sum_i \frac{3}{2} \langle (\mathbf{u}_i)_\alpha (\mathbf{u}_i)_\beta\rangle
+\label{eq:nemop}
+\end{equation}
+where $\alpha\beta\in\{x,y,z\}$ and the unit vector $(\mathbf{u}_i)_\alpha$ is the component $\alpha$ of the orientation (i.e. the symmetry axis) of particle $i$.
+First we note that since particles are aligned perpendicularly to the nematic field, if they are 
+randomly oriented one has $S=1/4$. Hence, below $\phi_0 < 0.45$ both symmetry axis of HSC and HE are 
+randomly oriented onto the plance perpendicular to the magnetic field.
+Interestingly, for $\phi > \phi_0$ HSC starts exhibiting smectic layering but their orientations
+remain random, while orientations of HE starts aligning (see Fig.~\ref{fig:ordpars}(bottom)).
 
 \begin{thebibliography}{1}
 \bibitem{Hansen_McDonald}
