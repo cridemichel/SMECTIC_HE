@@ -1,67 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Dubble_Ellipsoids.aux
-The style file: apsrev4-1.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+The style file: plain.bst
 Database file #1: Dubble_EllipsoidsNotes.bib
+Warning--entry type for "Note1" isn't style-file defined
+--line 1 of file Dubble_EllipsoidsNotes.bib
 Database file #2: ref_dubble.bib
-control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
-control{apsrev41Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
-Warning--jnrlst (dependency: not reversed) set 1
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
-Control: key (0) 
-Control: author (8) initials jnrlst
-Control: editor formatted (1) identically to author
-Control: production of article title (-1) disabled
-Control: page (0) single
-Control: year (1) truncated
-Control: production of eprint (0) enabled
-You've used 44 entries,
-            5847 wiz_defined-function locations,
-            1889 strings with 23882 characters,
-and the built_in function-call counts, 45750 in all, are:
-= -- 2748
-> -- 1357
-< -- 332
-+ -- 423
-- -- 347
-* -- 7302
-:= -- 4338
-add.period$ -- 42
-call.type$ -- 44
-change.case$ -- 169
-chr.to.int$ -- 52
-cite$ -- 44
-duplicate$ -- 4247
-empty$ -- 3322
-format.name$ -- 790
-if$ -- 9134
-int.to.chr$ -- 1
-int.to.str$ -- 51
-missing$ -- 560
-newline$ -- 178
-num.names$ -- 124
-pop$ -- 1768
+You've used 42 entries,
+            2118 wiz_defined-function locations,
+            782 strings with 12968 characters,
+and the built_in function-call counts, 16267 in all, are:
+= -- 1562
+> -- 943
+< -- 2
++ -- 372
+- -- 328
+* -- 1378
+:= -- 2763
+add.period$ -- 125
+call.type$ -- 42
+change.case$ -- 286
+chr.to.int$ -- 0
+cite$ -- 42
+duplicate$ -- 486
+empty$ -- 1132
+format.name$ -- 328
+if$ -- 3256
+int.to.chr$ -- 0
+int.to.str$ -- 42
+missing$ -- 40
+newline$ -- 211
+num.names$ -- 84
+pop$ -- 222
 preamble$ -- 1
-purify$ -- 209
+purify$ -- 246
 quote$ -- 0
-skip$ -- 1604
+skip$ -- 336
 stack$ -- 0
-substring$ -- 1122
-swap$ -- 4106
-text.length$ -- 166
+substring$ -- 1152
+swap$ -- 68
+text.length$ -- 2
 text.prefix$ -- 0
-top$ -- 10
-type$ -- 640
-warning$ -- 1
-while$ -- 134
-width$ -- 0
-write$ -- 384
+top$ -- 0
+type$ -- 168
+warning$ -- 0
+while$ -- 147
+width$ -- 44
+write$ -- 459
 (There was 1 warning)

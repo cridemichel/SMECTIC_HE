@@ -22,6 +22,7 @@
 %\usepackage[upright]{fourier}
 %\usepackage{newtxmath}
 \usepackage{xcolor}
+\bibliographystyle{plain}
 \raggedbottom%
 \def\nm{\,\si{\nano\meter}}% 
 \draft% marks overfull lines with a black rule on the right
@@ -209,17 +210,19 @@ In contrast to the particles with lower aspect ratio, the ones with higher aspec
 \subsection{Computer Simulations}
 \begin{figure*}[ht]
 \centering{\includegraphics[width=0.95\textwidth]{mceos.pdf}}
-\caption{Monte Carlo Simulations}\label{fig:sim}
+\caption{Equation of states of Hard Spherocylinders (left) and Hard Ellipsoids (right). Insets show
+  the static structure factor and snapshots for $\phi\approx 0.50$.
+Monte Carlo Simulations}\label{fig:sim}
 \end{figure*}
 Hematite-silica core-shell particles of aspect ratio $\rho_1$
 have a rather peculiar hybrid shape, where their midsection is more cylinder-like, as the one of hard spherocylinders 
 (HSCs), while their ends resemble more those of uni-axial hard ellipsoids (HEs) as shown in Fig.\ref{z_scan}(a).
 In contrast, particles with larger aspect ratio $\rho_2$ are overall more similar to HEs (see~\ref{z_scan}(b)).
-Hence, to model hematatie-silica particles with $\rho_1=2.82$, we decided to study both HSC and HE, as shown in Figs.~\ref{fig:sim}c and~\ref{fig:sim}d, 
+Hence, to model hematite-silica particles with $\rho_1=2.82$, we decided to study both HSC and HE, as shown in Figs.~\ref{fig:sim}c and~\ref{fig:sim}d, 
 under the effect of an external field, which mimics the magnetic field in the experiments, by means of Monte Carlo (MC) simulations.
 We note that hematite-silica core-shell particles are charged but we can expect that the resulting repulsive interaction between them 
-could be accounted for by just considering a larger particle volume. Hence we can expect a shift of phase boundaries to larger packing fractions
-without altering qualitatively the whole phase behavior.
+could be accounted for by just considering a larger particle volume. Hence we can expect a shift of phase boundaries to larger 
+packing fractions without altering qualitatively the whole phase behavior.
 
 Since real hematite-silica particles are polydisperse in our simulations we employed polydisperse HSCs and HEs.
 The length $L$ and the diameter $D$ of each particle were randomly drawn from a gaussian distribution as follows:
@@ -229,7 +232,7 @@ The length $L$ and the diameter $D$ of each particle were randomly drawn from a 
 \end{eqnarray}
 where $\xi_i$ with $i=1,2$ is a zero-mean unit-variance gaussian, $L_0=316 \nm$, $\sigma_L=26.3 \nm$, $D_0=108 \nm$ and $\sigma_D=6.98 \nm$
 In the following lengths will be expressed in units of $100\nm$. 
-For both systems we simulated $N=1125$ in a orthorombic box with periodic boundary conditions.
+For both systems we simulated $N=1125$ in a orthorhombic box with periodic boundary conditions.
 The external field applied to HE and HSC induces the particles to align perpendicularly to it with a tunable strength.
 Its action is implemented through the following external potential acting on each particle $i$
 \begin{equation}
@@ -349,7 +352,6 @@ Financial support from the European Research Council (ERC-339678-COMPASS), and t
 % Create the reference section using BibTeX:
 %%%----------------------------------------------------------------------------------------------------------------
 \bibliography{ref_dubble}
-
 \end{document}
 %
 
