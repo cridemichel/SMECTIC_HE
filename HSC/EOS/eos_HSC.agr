@@ -54,7 +54,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Fri Mar  5 12:36:40 2021"
+@timestamp def "Thu Apr  1 12:09:16 2021"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -394,7 +394,7 @@
 @    s3 hidden false
 @    s3 type xy
 @    s3 symbol 1
-@    s3 symbol size 0.570000
+@    s3 symbol size 0.500000
 @    s3 symbol color 2
 @    s3 symbol pattern 1
 @    s3 symbol fill color 2
@@ -439,11 +439,11 @@
 @    s3 errorbar riser clip off
 @    s3 errorbar riser clip length 0.100000
 @    s3 comment "/Users/demichel/PAPERS/SMECTIC_HE/HSC/EOS/eos_iso.dat"
-@    s3 legend  "nematic"
+@    s3 legend  "N\S\v{-0.4}*"
 @    s4 hidden false
 @    s4 type xy
 @    s4 symbol 2
-@    s4 symbol size 0.650000
+@    s4 symbol size 0.500000
 @    s4 symbol color 15
 @    s4 symbol pattern 1
 @    s4 symbol fill color 15
@@ -488,11 +488,11 @@
 @    s4 errorbar riser clip off
 @    s4 errorbar riser clip length 0.100000
 @    s4 comment "/Users/demichel/PAPERS/SMECTIC_HE/HSC/EOS/eos_sm.dat"
-@    s4 legend  "smectic"
+@    s4 legend  "Sm"
 @    s5 hidden false
 @    s5 type xy
 @    s5 symbol 3
-@    s5 symbol size 0.810000
+@    s5 symbol size 0.500000
 @    s5 symbol color 4
 @    s5 symbol pattern 1
 @    s5 symbol fill color 4
@@ -537,7 +537,7 @@
 @    s5 errorbar riser clip off
 @    s5 errorbar riser clip length 0.100000
 @    s5 comment "/Users/demichel/PAPERS/SMECTIC_HE/HSC/EOS/eos_K.dat"
-@    s5 legend  "crystal"
+@    s5 legend  "K"
 @target G0.S0
 @type xy
 0.11112586 0.2
