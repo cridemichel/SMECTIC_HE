@@ -218,7 +218,9 @@ Hematite-silica core-shell particles of aspect ratio $\rho_1$
 have a rather peculiar hybrid shape, where their midsection is more cylinder-like, as the one of hard spherocylinders 
 (HSCs), while their ends resemble more those of uni-axial hard ellipsoids (HEs) as shown in Fig.\ref{z_scan}(a).
 In contrast, particles with larger aspect ratio $\rho_2$ are overall more similar to HEs (see~\ref{z_scan}(b)).
-Hence, to model hematite-silica particles with $\rho_1=2.82$, we decided to study both HSC and HE, as shown in Figs.~\ref{fig:sim}c and~\ref{fig:sim}d, 
+Hence
+%, to model hematite-silica particles with $\rho_1=2.82$, 
+we decided to study both HSC and HE, as shown in Figs.~\ref{fig:sim}c and~\ref{fig:sim}d, 
 under the effect of an external field, which mimics the magnetic field in the experiments, by means of Monte Carlo (MC) simulations.
 We note that hematite-silica core-shell particles are charged but we can expect that the resulting repulsive interaction between them 
 could be accounted for by just considering a larger particle volume. Hence we can expect a shift of phase boundaries to larger 
@@ -230,7 +232,7 @@ The length $L$ and the diameter $D$ of each particle were randomly drawn from a 
   L &=& \sigma_L\,\xi_1 + L_0\\
   D &=& \sigma_D\,\xi_2 + D_0
 \end{eqnarray}
-where $\xi_i$ with $i=1,2$ is a zero-mean unit-variance gaussian, $L_0=316 \nm$, $\sigma_L=26.3 \nm$, $D_0=108 \nm$ and $\sigma_D=6.98 \nm$
+where $\xi_i$ with $i=1,2$ is a zero-mean unit-variance gaussian, $L_0=316 \nm$, $\sigma_L=26.3 \nm$, $D_0=108 \nm$ and $\sigma_D=6.98 \nm$. 
 In the following lengths will be expressed in units of $100\nm$. 
 For both systems we simulated $N=1125$ in a orthorhombic box with periodic boundary conditions.
 The external field applied to HE and HSC induces the particles to align perpendicularly to it with a tunable strength.
@@ -277,9 +279,16 @@ Concerning the formation of the smectic phase only with HSCs, this result can be
 that the cylinder-like midsection of HSCs surely favors the emergence of such a lamellar phase,
 even if some amount of polydispersity is present in the system. 
 
+% TODO IMPROVE THIS COMMENT
 According to our numerical results the shape of particles is crucial to induce the formation of a lamellar phase. 
-Indeed, hematite-silica particles with smaller aspect ratio do exhibit a smectic phase due to their resemblance with HSCs,
+Hematite-silica particles with smaller aspect ratio do exhibit a smectic phase due to their resemblance with HSCs,
 while particles with larger aspect ratio, being more similar to ellipsoids, do not exhibit a lamellar phase.
+We note that HSCs do not form a nematic phase, which is consistent with the phase diagram of monodisperse HSCs
+with the same aspect ratio, although hematite-silice particles with $\rho_1=2.82$ undergo a transition to a nematic phase.
+This different phase behavior can be understood by considering the hybrid shape nature of hematite-silica particles
+with smaller aspect ratio, which makes them not perfect spherocylinders (see SI for more information on this).  
+%In this respect, a more accurate modeling would consist in a mixture of ellipsoids
+%and hard spherocylinders.
 
 \section*{Conclusions}
 %%%----------------------------------------------------------------------------------------------------------------
