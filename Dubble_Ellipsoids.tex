@@ -210,31 +210,34 @@ In contrast to the particles with lower aspect ratio, the ones with higher aspec
 \subsection{Computer Simulations}
 \begin{figure*}[ht]
 \centering{\includegraphics[width=0.95\textwidth]{mceos.pdf}}
-\caption{Equation of states of (a) Hard Spherocylinders and (b) Hard Ellipsoids (right) from Monte Carlo simulations. 
+\caption{Equation of states of (a) Hard Ellipsoids and (b) Hard Spherocylinders from Monte Carlo simulations. 
   Insets show the static structure factors and snapshots for $\phi\approx 0.50$. 
 Monte Carlo Simulations}\label{fig:sim}
 \end{figure*}
-Hematite-silica core-shell particles of aspect ratio $\rho_1$
-have a rather peculiar hybrid shape, where their midsection is more cylinder-like, as the one of hard spherocylinders 
-(HSCs), while their ends resemble more those of uni-axial hard ellipsoids (HEs) as shown in Fig.\ref{z_scan}(a).
-In contrast, particles with larger aspect ratio $\rho_2$ are overall more similar to HEs (see~\ref{z_scan}(b)).
+In former studies~\cite{martchenko2016anisotropic} hematite-silica core-shell particles 
+were simply modeled by HEs, anyway our closer inspection to their shape reveals that the scenario is 
+more diverse. Hematite-silica core-shell particles of aspect ratio $\rho=3.69$  (see~\ref{z_scan}(b) and also the SI)
+closely resemble hard ellipsoids (HEs). In contrast, particles with smaller aspect ratio $\rho=2.82$ possess an  
+hybrid shape, where their midsection is more cylinder-like (i.e.~flatter), as the one of hard spherocylinders (HSCs), 
+while their ends resemble more those of uni-axial hard ellipsoids (HEs) as shown in Fig.\ref{z_scan}(a).
+%In contrast, particles with larger aspect ratio $\rho_2$ are overall more similar to HEs.
 Hence
 %, to model hematite-silica particles with $\rho_1=2.82$, 
-we decided to study both HSC and HE, as shown in Figs.~\ref{fig:sim}c and~\ref{fig:sim}d, 
+we decided to study both HEs and HSCs, as shown in Figs.~\ref{fig:sim}a and~\ref{fig:sim}b respectively, 
 under the effect of an external field, which mimics the magnetic field in the experiments, by means of Monte Carlo (MC) simulations.
-We note that hematite-silica core-shell particles are charged but we can expect that the resulting repulsive interaction between them 
-could be accounted for by just considering a larger particle volume. Hence we can expect a shift of phase boundaries to larger 
-packing fractions without altering qualitatively the whole phase behavior.
+We observe that hematite-silica core-shell particles are charged but the resulting repulsive interaction between them 
+can be accounted for by just considering a larger particle volume. Hence, we expect that electrostatic repulsion between particles 
+induces a shift of phase boundaries to larger packing fractions without altering qualitatively the whole phase behavior.
 
-Since real hematite-silica particles are polydisperse in our simulations we employed polydisperse HSCs and HEs.
+Since real hematite-silica particles are polydisperse in our simulations we employed polydisperse HEs and HSCs.
 The length $L$ and the diameter $D$ of each particle were randomly drawn from a gaussian distribution as follows:
 \begin{eqnarray}
   L &=& \sigma_L\,\xi_1 + L_0\\
   D &=& \sigma_D\,\xi_2 + D_0
 \end{eqnarray}
 where $\xi_i$ with $i=1,2$ is a zero-mean unit-variance gaussian, $L_0=316 \nm$, $\sigma_L=26.3 \nm$, $D_0=108 \nm$ and $\sigma_D=6.98 \nm$. 
-In the following lengths will be expressed in units of $100\nm$. 
-For both systems we simulated $N=1125$ in a orthorhombic box with periodic boundary conditions.
+The average aspect ratio of the simulated HEs and HSCs is equal to $2.9$, i.e.~close to the one of less elongated hematite-silica particles.  
+In the following lengths will be expressed in units of $100\nm$. For both systems we simulated $N=1125$ in a orthorhombic box with periodic boundary conditions.
 The external field applied to HE and HSC induces the particles to align perpendicularly to it with a tunable strength.
 Its action is implemented through the following external potential acting on each particle $i$
 \begin{equation}
@@ -246,47 +249,54 @@ system the magnetic field induces a rather strong alignment of hematite-silica c
 
 To build the equation of state (EOS) in Figs.~\ref{fig:sim}a and~\ref{fig:sim}b we performed MC simulations in the isobaric ensemble (NPT) where the three
 dimensions of the orthorhombic box were allowed to change independently in order to ease the formation of mesophases.
-Figures~\ref{fig:sim}(a,b) show the EOS of HSC and HE, it can be seen that HSC exhibit three phases: a para-nematic (pN) 
-phase, where the axis of the HSCs is aligned perpendicularly to the external field, a smectic A phase (SmA) where the layers 
-are perpendicular to the field and a uniaxial columnar crystal phase (K). Interestingly, the transition from the pN to the SmA phase 
-is not associate with a significant variation of the volume fraction of the system, thus suggesting that this transition is either 
-very weakly first order or second order. 
 
-Differently, the transition from the SmA phase to the crystal phase
-i markedly second order as expected. The phase behavior of HEs is less rich, since they exhibit just two phases throughout 
-all pressures considered in the simulations. While, as for HSCs in the $N^*$ phase ($\phi_0\lesssim 0.45$)
-the symmetry axis of HEs is perpendicular
-to $\mathbf{B}$ while in the N phase HEs start also aligning along a direction 
-perpendicular to $\mathbf{B}$ (see SI for more information). 
-Hence, we have two different types of nematic phases, pN and N, 
-where the transition between the two is weakly first order or second order and this
-phase behavior resembles that of hematite-silica particles with $\rho_1=3.7$.
+Figures~\ref{fig:sim}(a,b) show the EOS of HEs and HSCs. Concerning~\ref{fig:sim}a, it can be seen that, 
+similarly to what observed for hematite-silica particles with $\rho=3.72$ and in previous studies~\cite{martchenko2016anisotropic}, 
+HEs exhibit two phases throughout all pressures considered in the simulations:  
+a para-nematic (pN) phase (for $\phi_0\lesssim 0.45$), where the symmetry axis of the HEs is aligned perpendicularly to the 
+external field $\mathbf{B}$, and a nematic phase (N) where HEs self-align also a along a direction perpendicular to $\mathbf{B}$ 
+(see SI for more information). It is interesting to note that the transition between these two different types of nematic phases
+is associated with a small variation of the volume fraction $\phi$,
+thus suggesting that this transition is either weakly first order or second order.
+We observe that the very same qualitative phase behavior is expected for HEs with larger aspect ratio, according to numerical 
+studies reported in Ref.~\cite{martchenko2016anisotropic}.
+
+The phase behavior of HSCs is more rich, since they exhibit three phases: a para-nematic (pN) 
+phase, analogous to the one observed for HEs, a smectic A phase (SmA) where the layers 
+are perpendicular to the field and a uniaxial columnar crystal phase (K). 
+In this case HSCs allow the emergence of a lamellar phase for $0.45\lesssim\phi\lesssim 0.55$ 
+in agreement with experimental results for hematite-silica particles with $\rho=2.82$.
+%The emergence of a SmA phase reflects what obtained from experiments for $\rho=2.82$
+Interestingly, the transition from the pN to the SmA phase (as the pN-N one) 
+is not associated with a significant variation of $\phi$, so that it can either
+very weakly first order or second order. Differently, the transition from the SmA phase to the crystal phase
+is markedly second order as expected.  
 %Concerning HSCs they also undergo a similar transition but only when the system becomes crystalline. 
 
 As insets of Figs.~\ref{fig:sim}(a) and (b) a snapshot of a configuration
 taken at a pressure such that $\phi=0.50$ and the structure factor 
 calculated for the same pressure are shown.  We note that the structure factor which we calculated from the simulations
-include the form factor and correspond to $\mathbf{q}$-values lying onto the plane identified by the external field (B, i.e.~y-axis) and a direction perpendicular
-to it ($z$-axis), so that a direct comparison with experiments can be made.
+include the form factor and correspond to $\mathbf{q}$-values lying onto the plane identified by the external field (B, i.e.~y-axis) and 
+a direction perpendicular to it ($z$-axis), so that a direct comparison with experiments can be made.
 
-In the snapshot of HSCs a clear lamellar ordering is apparent which reflects in the Bragg peaks present in the structure factor.
+The snapshot of HEs is a prototypical example of a nematic phase, whereas no lamellar ordering is present. 
+The structure factor similarly reflect the absence of any layering in the system and it can 
+be straightforwardly compared with the experimental one show in Fig.~\ref{z_scan}(b). 
+On the contrary, in the snapshot of HSCs a clear lamellar ordering is apparent which reflects in the Bragg peaks present in the structure factor.
 The distance between Bragg peaks is equal to $2\pi/d$ with $d\approx 1\,\hbox{r.u.}$, i.e.~about $D_0$, consistently with the experimental structure
 factor shown in Fig.~\ref{z_scan}(c) for the smectic phase of hematite-silica particles.
-On the contrary, the snapshot of HEs is a prototypical example of a nematic phase
-whereas no lamellar ordering is present. The structure factor similarly reflect the absence of any layering in the system and it can 
-be straightforwardly compared with the experimental one show in Fig.~\ref{z_scan}(b). 
 Concerning the formation of the smectic phase only with HSCs, this result can be understood by noting
 that the cylinder-like midsection of HSCs surely favors the emergence of such a lamellar phase,
 even if some amount of polydispersity is present in the system. 
 
 % TODO IMPROVE THIS COMMENT
 According to our numerical results the shape of particles is crucial to induce the formation of a lamellar phase. 
-Hematite-silica particles with smaller aspect ratio do exhibit a smectic phase due to their resemblance with HSCs,
-while particles with larger aspect ratio, being more similar to ellipsoids, do not exhibit a lamellar phase.
-We note that HSCs do not form a nematic phase, which is consistent with the phase diagram of monodisperse HSCs
-with the same aspect ratio, although hematite-silice particles with $\rho_1=2.82$ undergo a transition to a nematic phase.
+Hematite-silica particles with smaller aspect ratio do exhibit a smectic phase due to their resemblance with HSCs in their midsection,
+while particles with larger aspect ratio, being overall more similar to ellipsoids, do not exhibit a lamellar phase.
+We note that HSCs do not form a N phase, which is consistent with the phase diagram of monodisperse HSCs
+with the same aspect ratio, although hematite-silice particles with $\rho_1=2.82$ undergo a transition to a N phase.
 This different phase behavior can be understood by considering the hybrid shape nature of hematite-silica particles
-with smaller aspect ratio, which makes them not perfect spherocylinders (see SI for more information on this).  
+with smaller aspect ratio, which makes them not perfect spherocylinders (see also SI for more information on this).  
 %In this respect, a more accurate modeling would consist in a mixture of ellipsoids
 %and hard spherocylinders.
 
