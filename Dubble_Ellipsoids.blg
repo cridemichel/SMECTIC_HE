@@ -6,45 +6,45 @@ Database file #1: Dubble_EllipsoidsNotes.bib
 Warning--entry type for "Note1" isn't style-file defined
 --line 1 of file Dubble_EllipsoidsNotes.bib
 Database file #2: ref_dubble.bib
-You've used 42 entries,
+You've used 44 entries,
             2118 wiz_defined-function locations,
-            782 strings with 12968 characters,
-and the built_in function-call counts, 16267 in all, are:
-= -- 1562
-> -- 943
+            794 strings with 13400 characters,
+and the built_in function-call counts, 17111 in all, are:
+= -- 1646
+> -- 989
 < -- 2
-+ -- 372
-- -- 328
-* -- 1378
-:= -- 2763
-add.period$ -- 125
-call.type$ -- 42
-change.case$ -- 286
++ -- 390
+- -- 344
+* -- 1454
+:= -- 2903
+add.period$ -- 131
+call.type$ -- 44
+change.case$ -- 300
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 486
-empty$ -- 1132
-format.name$ -- 328
-if$ -- 3256
+cite$ -- 44
+duplicate$ -- 508
+empty$ -- 1192
+format.name$ -- 344
+if$ -- 3424
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 40
-newline$ -- 211
-num.names$ -- 84
-pop$ -- 222
+int.to.str$ -- 44
+missing$ -- 42
+newline$ -- 221
+num.names$ -- 88
+pop$ -- 232
 preamble$ -- 1
-purify$ -- 246
+purify$ -- 258
 quote$ -- 0
-skip$ -- 336
+skip$ -- 350
 stack$ -- 0
-substring$ -- 1152
-swap$ -- 68
+substring$ -- 1230
+swap$ -- 70
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 168
+type$ -- 176
 warning$ -- 0
-while$ -- 147
-width$ -- 44
-write$ -- 459
+while$ -- 155
+width$ -- 46
+write$ -- 481
 (There was 1 warning)

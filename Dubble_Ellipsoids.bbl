@@ -102,6 +102,13 @@ Ilya Martchenko, J{\'e}r{\^o}me~J Crassous, Adriana~M Mihut, Erik Bialik, Ann~M
 \newblock Anisotropic magnetic particles in a magnetic field.
 \newblock {\em Soft Matter}, 12:8755, 2016.
 
+\bibitem{martchenko2011}
+Ilya Martchenko, Herv{\'e} Dietsch, Christian Moitzi, and Peter Schurtenberger.
+\newblock Hydrodynamic properties of magnetic nanoparticles with tunable shape
+  anisotropy: Prediction and experimental verification.
+\newblock {\em The Journal of Physical Chemistry B}, 115(49):14838--14845,
+  2011.
+
 \bibitem{nallet1993modelling}
 Fr{\'e}d{\'e}ric Nallet, Ren{\'e} Laversanne, and Didier Roux.
 \newblock Modelling x-ray or neutron scattering spectra of lyotropic lamellar
@@ -109,7 +116,7 @@ Fr{\'e}d{\'e}ric Nallet, Ren{\'e} Laversanne, and Didier Roux.
 \newblock {\em Journal de Physique II}, 3(4):487--502, 1993.
 
 \bibitem{Note1}
-pN phase has been described before as polarized fluid in ref.~\cite
+The pN phase has been described before as a polarized fluid in ref.~\cite
   {martchenko2016anisotropic}.
 
 \bibitem{ocana1999homogeneous}
@@ -190,6 +197,11 @@ Mathias Reufer, Herv{\'e} Dietsch, Urs Gasser, Ann Hirt, Andreas Menzel, and
   hematite particles in a magnetic field probed by small-angle x-ray
   scattering.
 \newblock {\em The Journal of Physical Chemistry B}, 114(14):4763--4769, 2010.
+
+\bibitem{reufer2012differential}
+Mathias Reufer, Vincent~A Martinez, Peter Schurtenberger, and Wilson~CK Poon.
+\newblock Differential dynamic microscopy for anisotropic colloidal dynamics.
+\newblock {\em Langmuir}, 28(10):4618--4624, 2012.
 
 \bibitem{rossi2010cholesteric}
 Laura Rossi, Stefano Sacanna, and Krassimir~P Velikov.
