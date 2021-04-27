@@ -180,12 +180,15 @@ More details on this are provided below (see Section ``Smectic and nematic order
 \end{figure}
 %\newpage %usato solo per non far andare l'immagine prima
 
-\section{Absence of magnetic field}
+\section{Simulations without magnetic field}
 
-In order to demonstrate the magnetic origin of the smectic phase in these systems, we performed a Monte Carlo simulation in the NVT ensemble of a smectic configuration of spherocylinders with $\phi = 0.50$. As represented in Fig. \ref{fig:noB_snapshot}, in absence of a magnetic field the system preferentially arranges in a isotropic phase.
+In order to demonstrate the magnetic origin of the smectic phase in these systems, we performed a NTV Monte Carlo simulation at $\phi=0.50$ starting from a smectic configuration  
+of spherocylinders, where we switched-off the external field. 
+It can be seen that, as shown in Fig. \ref{fig:noB_snapshot}, the system becomes isotropic, thus proving that the smectic phase is an exquisite filed-induced effect.
 
 \subsection{Structure factor}
-To further confirm the isotropy of this phase, it has been calculated the structure factor $S(0, q_y, q_z)$ of the system which presents a typical isotropic pattern (Fig. \ref{fig:Syz_noB}).
+To further confirm the translational and orientational isotropy of this phase, 
+we calculated the structure factor $S(0, q_y, q_z)$ of the system, which exhibits a typical isotropic pattern, as shown in Fig. \ref{fig:Syz_noB}.
 
 %\newpage    %da togliere
 
@@ -203,11 +206,11 @@ To further confirm the isotropy of this phase, it has been calculated the struct
     \label{fig:Syz_noB}
 \end{figure}
 
-
 \subsection{Pair distribution function}
 
-Likewise the case with a magnetic field, it has been calculated the pair distribution function of a system of spherocylinders in absence of magnetic field. As it can be seen from Fig. \ref{fig:gxz_noB} and Fig. \ref{fig:gyz_noB}, the phase is clearly isotropic, without long range spatial correlation between the particles, corroborating the magnetic field induced nature of the smectic phase.
-
+We also calculated the pair distribution function of a system of spherocylinders without the magnetic field. As it can be seen in Fig.~\ref{fig:gxz_noB} and Fig.~\ref{fig:gyz_noB}, 
+the microscopic ordering is that of an isotropic phase where long range spatial correlation between the particles are absent, thus confirming the field-induced nature of the 
+smectic phase.
 
 \begin{figure}
     \centering
@@ -228,7 +231,7 @@ fix
 
 \section{Smectic and nematic ordering}
 
-A convenient way to check for the emergence of a smectic phase in our computer simulations 
+A convenient way to check the emergence of a smectic phase in our computer simulations 
 is to calculate the smectic order parameter $\tau_1$ defined as follows:
 
 \begin{equation}
@@ -265,13 +268,13 @@ randomly oriented onto the plance perpendicular to the magnetic field.
 Interestingly, for $\phi > \phi_0$ HSC starts exhibiting smectic layering but their orientations
 remain random, while orientations of HE starts aligning (see Fig.~\ref{fig:ordpars}(bottom)).
 
-\section{Shape analysis}
+\section{Study of hematite-silica particle shape}
 
-The particular behaviour of the particles can be understood by analysing their shape. In particular, it has been obtained the particle borders from a pool of samples belonging to the two aspect ratios ($\rho_1 = 2.82, \rho_2 = 3.69$). By developing a C++ program, the coordinates of the borders have been analysed and fitted using an ellipse and a spherocylinder shape. Due to the anisotropy of the particles, the analisys has been performed on the left and on the right side of the particles independently (Fig. \ref{fig:Part_fit}). The fit minimizes the distance $d$ between the border coordinates of a particle and the nearest point of the fitting shape. The hybrid nature of the particles is easy to notice, particularly using a spherocylindrical fit which is very sensible to the flatness of the particle sides. The results of this analysis are represented in the histograms in Fig. \ref{fig:Mean_dist}. As it can be easily noticed, the analysis on the more elongated particles ($\rho = 3.69$) shows their almost ellipsoidal nature, leading to a lower mean distance. On the contrary, the particles with $\rho = 2.82$ present a more hybrid nature, with a comparable mean distance distribution between the two fits.
+The particular behavior of the particles can be understood by analyzing their shape. In particular, it has been obtained the particle borders from a pool of samples belonging to the two aspect ratios ($\rho_1 = 2.82, \rho_2 = 3.69$). By developing a C++ program, the coordinates of the borders have been analysed and fitted using an ellipse and a spherocylinder shape. Due to the anisotropy of the particles, the analisys has been performed on the left and on the right side of the particles independently (Fig. \ref{fig:Part_fit}). The fit minimizes the distance $d$ between the border coordinates of a particle and the nearest point of the fitting shape. The hybrid nature of the particles is easy to notice, particularly using a spherocylindrical fit which is very sensible to the flatness of the particle sides. The results of this analysis are represented in the histograms in Fig. \ref{fig:Mean_dist}. As it can be easily noticed, the analysis on the more elongated particles ($\rho = 3.69$) shows their almost ellipsoidal nature, leading to a lower mean distance. On the contrary, the particles with $\rho = 2.82$ present a more hybrid nature, with a comparable mean distance distribution between the two fits.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\columnwidth]{Part fit.png}
+    \includegraphics[width=0.95\columnwidth]{Part fit.png}
     \caption{Particle shape analysis. The border of the particles with $\rho = 3.69$ (a) and $\rho = 2.82$ (b) has been fitted using an ellipse (in blue) and a spherocylinder (in red).}
     \label{fig:Part_fit}
 \end{figure}
@@ -279,7 +282,7 @@ The particular behaviour of the particles can be understood by analysing their s
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\columnwidth]{Mean_dist.png}
+    \includegraphics[width=0.95\columnwidth]{Mean_dist.png}
     \caption{Probability density of the minimum mean distance $d$ between the border of the particles ($\rho = 3.69$ (a) and $\rho = 2.82$ (b)) and the fitting shape.}
     \label{fig:Mean_dist}
 \end{figure}
@@ -297,7 +300,7 @@ Thus, the particles can't be described as ellipses neither spherocylinders, inst
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\columnwidth]{maxlength_div.png}
+    \includegraphics[width=0.5\columnwidth]{maxlength_div.png}
     \caption{Probability density of the flat portion of the particles with the two different aspect ratios: $\rho=3.69$ in red and $\rho=2.82$ in blue.}
     \label{fig:maxlength_div}
 \end{figure}

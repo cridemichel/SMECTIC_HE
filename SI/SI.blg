@@ -11,7 +11,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: SINotes.bib
 Database file #2: ref_dubble.bib
-Warning--I didn't find a database entry for "Hansen_McDonald"
 control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{aip41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{0}, control.pages{1}, control.year{N/A}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
@@ -24,45 +23,45 @@ Control: production of article title (0) allowed
 Control: page (1) range
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-You've used 4 entries,
+You've used 5 entries,
             5918 wiz_defined-function locations,
-            1623 strings with 15222 characters,
-and the built_in function-call counts, 4108 in all, are:
-= -- 186
-> -- 143
-< -- 48
-+ -- 43
-- -- 52
-* -- 703
-:= -- 356
-add.period$ -- 4
-call.type$ -- 4
-change.case$ -- 10
-chr.to.int$ -- 6
-cite$ -- 4
-duplicate$ -- 394
-empty$ -- 240
-format.name$ -- 74
-if$ -- 750
+            1627 strings with 15359 characters,
+and the built_in function-call counts, 4926 in all, are:
+= -- 237
+> -- 169
+< -- 51
++ -- 51
+- -- 58
+* -- 819
+:= -- 448
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 14
+chr.to.int$ -- 7
+cite$ -- 5
+duplicate$ -- 474
+empty$ -- 309
+format.name$ -- 87
+if$ -- 909
 int.to.chr$ -- 1
-int.to.str$ -- 11
-missing$ -- 64
-newline$ -- 58
-num.names$ -- 6
-pop$ -- 169
+int.to.str$ -- 12
+missing$ -- 72
+newline$ -- 61
+num.names$ -- 9
+pop$ -- 208
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 15
 quote$ -- 0
-skip$ -- 116
+skip$ -- 145
 stack$ -- 0
-substring$ -- 94
-swap$ -- 401
-text.length$ -- 15
+substring$ -- 107
+swap$ -- 463
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 50
+type$ -- 62
 warning$ -- 1
-while$ -- 14
+while$ -- 17
 width$ -- 0
-write$ -- 70
-(There were 2 warnings)
+write$ -- 77
+(There was 1 warning)
