@@ -1,16 +1,24 @@
 \begin{thebibliography}{10}
 
-\bibitem{Bolhuis1997}
-Peter Bolhuis and Daan Frenkel.
-\newblock Tracing the phase boundaries of hard spherocylinders.
-\newblock {\em The Journal of Chemical Physics}, 106(2):666 -- 687, 1997.
+\bibitem{pizzey2004suspensions}
+Claire Pizzey, Susanne Klein, Edward Leach, Jeroen~S van Duijneveldt, and
+  Robert~M Richardson.
+\newblock Suspensions of colloidal plates in a nematic liquid crystal: a small
+  angle x-ray scattering study.
+\newblock {\em Journal of Physics: Condensed Matter}, 16(15):2479, 2004.
 
-\bibitem{brown1999phase}
-ABD Brown, C~Ferrero, T~Narayanan, and AR~Rennie.
-\newblock Phase separation and structure in a concentrated colloidal dispersion
-  of uniform plates.
-\newblock {\em The European Physical Journal B-Condensed Matter and Complex
-  Systems}, 11(3):481--489, 1999.
+\bibitem{van1998formation}
+Felix~M van~der Kooij and Henk~NW Lekkerkerker.
+\newblock Formation of nematic liquid crystals in suspensions of hard colloidal
+  platelets.
+\newblock {\em The Journal of Physical Chemistry B}, 102(40):7829--7832, 1998.
+
+\bibitem{purdy2005nematic}
+Kirstin~R Purdy, Szabolcs Varga, Amparo Galindo, George Jackson, and Seth
+  Fraden.
+\newblock Nematic phase transitions in mixtures of thin and thick colloidal
+  rods.
+\newblock {\em Physical review letters}, 94(5):057801, 2005.
 
 \bibitem{buining1993isotropic}
 PA~Buining and HNW Lekkerkerker.
@@ -18,61 +26,11 @@ PA~Buining and HNW Lekkerkerker.
   boehmite rods.
 \newblock {\em The Journal of Physical Chemistry}, 97(44):11510--11516, 1993.
 
-\bibitem{davidson2018isotropic}
-Patrick Davidson, Christophe Penisson, Doru Constantin, and Jean-Christophe~P
-  Gabriel.
-\newblock Isotropic, nematic, and lamellar phases in colloidal suspensions of
-  nanosheets.
-\newblock {\em Proceedings of the National Academy of Sciences}, page
-  201802692, 2018.
-
-\bibitem{dogic2016filamentous}
-Zvonimir Dogic.
-\newblock Filamentous phages as a model system in soft matter physics.
-\newblock {\em Frontiers in microbiology}, 7:1013, 2016.
-
 \bibitem{fraden1989isotropic}
 Seth Fraden, Georg Maret, DLD Caspar, and Robert~B Meyer.
 \newblock Isotropic-nematic phase transition and angular correlations in
   isotropic suspensions of tobacco mosaic virus.
 \newblock {\em Physical Review Letters}, 63(19):2068, 1989.
-
-\bibitem{ganesan2017high}
-Mahesh Ganesan and Michael~J Solomon.
-\newblock High-density equilibrium phases of colloidal ellipsoids by
-  application of optically enhanced, direct current electric fields.
-\newblock {\em Soft matter}, 13(20):3768--3776, 2017.
-
-\bibitem{graf2003general}
-Christina Graf, Dirk~LJ Vossen, Arnout Imhof, and Alfons van Blaaderen.
-\newblock A general method to coat colloidal particles with silica.
-\newblock {\em Langmuir}, 19(17):6693--6700, 2003.
-
-\bibitem{kleshchanok2010structures}
-Dzina Kleshchanok, Andrei~V Petukhov, Peter Holmqvist, Dmytro~V Byelov, and
-  Henk~NW Lekkerkerker.
-\newblock Structures and phase behavior in mixtures of charged colloidal
-  spheres and platelets.
-\newblock {\em Langmuir}, 26(16):13614--13621, 2010.
-
-\bibitem{kuijk2012phase}
-Anke Kuijk, Dmytro~V Byelov, Andrei~V Petukhov, Alfons van Blaaderen, and
-  Arnout Imhof.
-\newblock Phase behavior of colloidal silica rods.
-\newblock {\em Faraday discussions}, 159(1):181--199, 2012.
-
-\bibitem{kuijk2011synthesis}
-Anke Kuijk, Alfons van Blaaderen, and Arnout Imhof.
-\newblock Synthesis of monodisperse, rodlike silica colloids with tunable
-  aspect ratio.
-\newblock {\em Journal of the American Chemical Society}, 133(8):2346--2349,
-  2011.
-
-\bibitem{lekkerkerker2013liquid}
-HNW Lekkerkerker and GJ~Vroege.
-\newblock Liquid crystal phase transitions in suspensions of mineral colloids:
-  new life from old roots.
-\newblock {\em Phil. Trans. R. Soc. A}, 371(1988):20120263, 2013.
 
 \bibitem{lemaire2002outstanding}
 BJ~Lemaire, P~Davidson, J~Ferr{\'e}, JP~Jamet, P~Panine, I~Dozov, and
@@ -88,6 +46,23 @@ BJ~Lemaire, P~Davidson, J~Ferr{\'e}, JP~Jamet, D~Petermann, P~Panine, I~Dozov,
   ($\alpha$-feooh) nanorods.
 \newblock {\em The European Physical Journal E}, 13(3):291--308, 2004.
 
+\bibitem{vroege2014biaxial}
+Gert~Jan Vroege.
+\newblock Biaxial phases in mineral liquid crystals.
+\newblock {\em Liquid Crystals}, 41(3):342--352, 2014.
+
+\bibitem{van2010uniaxial}
+E~Van~den Pol, DME Thies-Weesie, AV~Petukhov, DV~Byelov, and GJ~Vroege.
+\newblock Uniaxial and biaxial liquid crystal phases in colloidal dispersions
+  of board-like particles.
+\newblock {\em Liquid Crystals}, 37(6-7):641--651, 2010.
+
+\bibitem{rossi2010cholesteric}
+Laura Rossi, Stefano Sacanna, and Krassimir~P Velikov.
+\newblock Cholesteric colloidal liquid crystals from phytosterol rod-like
+  particles.
+\newblock {\em Soft Matter}, 7(1):64--67, 2010.
+
 \bibitem{li2016colloidal}
 Yunfeng Li, Jeffrey Jun-Yan Suen, Elisabeth Prince, Egor~M Larin, Anna
   Klinkova, H{\'e}lo{\"\i}se Th{\'e}rien-Aubin, Shoujun Zhu, Bai Yang, Amr~S
@@ -95,41 +70,61 @@ Yunfeng Li, Jeffrey Jun-Yan Suen, Elisabeth Prince, Egor~M Larin, Anna
 \newblock Colloidal cholesteric liquid crystal in spherical confinement.
 \newblock {\em Nature communications}, 7:12520, 2016.
 
-\bibitem{martchenko2016anisotropic}
-Ilya Martchenko, J{\'e}r{\^o}me~J Crassous, Adriana~M Mihut, Erik Bialik, Ann~M
-  Hirt, Chantal Rufier, Andreas Menzel, Herv{\'e} Dietsch, Per Linse, and Peter
-  Schurtenberger.
-\newblock Anisotropic magnetic particles in a magnetic field.
-\newblock {\em Soft Matter}, 12:8755, 2016.
+\bibitem{dogic2016filamentous}
+Zvonimir Dogic.
+\newblock Filamentous phages as a model system in soft matter physics.
+\newblock {\em Frontiers in microbiology}, 7:1013, 2016.
 
-\bibitem{martchenko2011}
-Ilya Martchenko, Herv{\'e} Dietsch, Christian Moitzi, and Peter Schurtenberger.
-\newblock Hydrodynamic properties of magnetic nanoparticles with tunable shape
-  anisotropy: Prediction and experimental verification.
-\newblock {\em The Journal of Physical Chemistry B}, 115(49):14838--14845,
-  2011.
+\bibitem{davidson2018isotropic}
+Patrick Davidson, Christophe Penisson, Doru Constantin, and Jean-Christophe~P
+  Gabriel.
+\newblock Isotropic, nematic, and lamellar phases in colloidal suspensions of
+  nanosheets.
+\newblock {\em Proceedings of the National Academy of Sciences}, page
+  201802692, 2018.
 
-\bibitem{nallet1993modelling}
-Fr{\'e}d{\'e}ric Nallet, Ren{\'e} Laversanne, and Didier Roux.
-\newblock Modelling x-ray or neutron scattering spectra of lyotropic lamellar
-  phases: interplay between form and structure factors.
-\newblock {\em Journal de Physique II}, 3(4):487--502, 1993.
+\bibitem{vroege2006smectic}
+Gert~J Vroege, Dominique~ME Thies-Weesie, Andrei~V Petukhov, Bruno~J Lemaire,
+  and Patrick Davidson.
+\newblock Smectic liquid-crystalline order in suspensions of highly
+  polydisperse goethite nanorods.
+\newblock {\em Advanced Materials}, 18(19):2565--2568, 2006.
 
-\bibitem{Note1}
-The pN phase has been described before as a polarized fluid in ref.~\cite
-  {martchenko2016anisotropic}.
+\bibitem{kuijk2012phase}
+Anke Kuijk, Dmytro~V Byelov, Andrei~V Petukhov, Alfons van Blaaderen, and
+  Arnout Imhof.
+\newblock Phase behavior of colloidal silica rods.
+\newblock {\em Faraday discussions}, 159(1):181--199, 2012.
 
-\bibitem{ocana1999homogeneous}
-Morales Oca{\~n}a, MP~Morales, and CJ~Serna.
-\newblock Homogeneous precipitation of uniform $\alpha$-fe 2 o 3 particles from
-  iron salts solutions in the presence of urea.
-\newblock {\em Journal of colloid and interface science}, 212(2):317--323,
-  1999.
+\bibitem{van2000liquid}
+Felix~M van~der Kooij, Katerina Kassapidou, and Henk~NW Lekkerkerker.
+\newblock Liquid crystal phase transitions in suspensions of polydisperse
+  plate-like particles.
+\newblock {\em Nature}, 406(6798):868, 2000.
 
-\bibitem{odriozola2012revisiting}
-Gerardo Odriozola.
-\newblock Revisiting the phase diagram of hard ellipsoids.
-\newblock {\em The Journal of chemical physics}, 136(13):134505, 2012.
+\bibitem{brown1999phase}
+ABD Brown, C~Ferrero, T~Narayanan, and AR~Rennie.
+\newblock Phase separation and structure in a concentrated colloidal dispersion
+  of uniform plates.
+\newblock {\em The European Physical Journal B-Condensed Matter and Complex
+  Systems}, 11(3):481--489, 1999.
+
+\bibitem{wijnhoven2005sedimentation}
+Judith~EGJ Wijnhoven, Dani{\"e}lle~D van't Zand, David van~der Beek, and
+  Henk~NW Lekkerkerker.
+\newblock Sedimentation and phase transitions of colloidal gibbsite platelets.
+\newblock {\em Langmuir}, 21(23):10422--10427, 2005.
+
+\bibitem{van2004liquid}
+David van~der Beek and Henk~NW Lekkerkerker.
+\newblock Liquid crystal phases of charged colloidal platelets.
+\newblock {\em Langmuir}, 20(20):8582--8586, 2004.
+
+\bibitem{van2005evidence}
+D~Van~der Beek, AV~Petukhov, SM~Oversteegen, GJ~Vroege, and HNW Lekkerkerker.
+\newblock Evidence of the hexagonal columnar liquid-crystal phase of hard
+  colloidal platelets by high-resolution saxs.
+\newblock {\em The European Physical Journal E}, 16(3):253--258, 2005.
 
 \bibitem{op2013phase}
 ABGM~Leferink op~Reinink, E~van~den Pol, AV~Petukhov, GJ~Vroege, and HNW
@@ -139,18 +134,34 @@ ABGM~Leferink op~Reinink, E~van~den Pol, AV~Petukhov, GJ~Vroege, and HNW
 \newblock {\em The European Physical Journal Special Topics},
   222(11):3053--3069, 2013.
 
-\bibitem{PerramJCP1985}
-John~W. Perram and M.S. Wertheim.
-\newblock Statistical mechanics of hard ellipsoids. i. overlap algorithm and
-  the contact function.
-\newblock {\em Journal of Computational Physics}, 58(3):409--416, 1985.
+\bibitem{Schurtenberger2016}
+P~Schurtenberger.
+\newblock {Driven self-assembly}.
+\newblock In CN~Likos, F~Sciortino, P~Ziherl, and E~Zaccarelli, editors, {\em
+  Soft Matter Self-Assembly}, pages 81--136. IOS Press, Nieuwe Hemweg 6B, 1013
+  BG Amsterdam, Netherlands, 2016.
 
-\bibitem{petukhov2015particle}
-Andrei~V Petukhov, Janne-Mieke Meijer, and Gert~Jan Vroege.
-\newblock Particle shape effects in colloidal crystals and colloidal liquid
-  crystals: small-angle x-ray scattering studies with microradian resolution.
-\newblock {\em Current opinion in colloid \& interface science},
-  20(4):272--281, 2015.
+\bibitem{ganesan2017high}
+Mahesh Ganesan and Michael~J Solomon.
+\newblock High-density equilibrium phases of colloidal ellipsoids by
+  application of optically enhanced, direct current electric fields.
+\newblock {\em Soft matter}, 13(20):3768--3776, 2017.
+
+\bibitem{shah2015actuation}
+Aayush~A Shah, Benjamin Schultz, Wenjia Zhang, Sharon~C Glotzer, and Michael~J
+  Solomon.
+\newblock Actuation of shape-memory colloidal fibres of janus ellipsoids.
+\newblock {\em Nature materials}, 14(1):117--124, 2015.
+
+\bibitem{radu2009solid}
+Marc Radu, Patrick Pfleiderer, and Tanja Schilling.
+\newblock Solid-solid phase transition in hard ellipsoids.
+\newblock {\em The Journal of chemical physics}, 131(16):164513, 2009.
+
+\bibitem{odriozola2012revisiting}
+Gerardo Odriozola.
+\newblock Revisiting the phase diagram of hard ellipsoids.
+\newblock {\em The Journal of chemical physics}, 136(13):134505, 2012.
 
 \bibitem{pfleiderer2008crystal}
 Patrick Pfleiderer.
@@ -158,31 +169,16 @@ Patrick Pfleiderer.
   Ellipsoids}.
 \newblock PhD thesis, Citeseer, 2008.
 
-\bibitem{pizzey2004suspensions}
-Claire Pizzey, Susanne Klein, Edward Leach, Jeroen~S van Duijneveldt, and
-  Robert~M Richardson.
-\newblock Suspensions of colloidal plates in a nematic liquid crystal: a small
-  angle x-ray scattering study.
-\newblock {\em Journal of Physics: Condensed Matter}, 16(15):2479, 2004.
+\bibitem{Bolhuis1997}
+Peter Bolhuis and Daan Frenkel.
+\newblock Tracing the phase boundaries of hard spherocylinders.
+\newblock {\em The Journal of Chemical Physics}, 106(2):666 -- 687, 1997.
 
-\bibitem{purdy2003measuring}
-Kirstin~R Purdy, Zvonimir Dogic, Seth Fraden, Adrian R{\"u}hm, Lawrence Lurio,
-  and Simon~GJ Mochrie.
-\newblock Measuring the nematic order of suspensions of colloidal fd virus by
-  x-ray diffraction and optical birefringence.
-\newblock {\em Physical review E}, 67(3):031708, 2003.
-
-\bibitem{purdy2005nematic}
-Kirstin~R Purdy, Szabolcs Varga, Amparo Galindo, George Jackson, and Seth
-  Fraden.
-\newblock Nematic phase transitions in mixtures of thin and thick colloidal
-  rods.
-\newblock {\em Physical review letters}, 94(5):057801, 2005.
-
-\bibitem{radu2009solid}
-Marc Radu, Patrick Pfleiderer, and Tanja Schilling.
-\newblock Solid-solid phase transition in hard ellipsoids.
-\newblock {\em The Journal of chemical physics}, 131(16):164513, 2009.
+\bibitem{lekkerkerker2013liquid}
+HNW Lekkerkerker and GJ~Vroege.
+\newblock Liquid crystal phase transitions in suspensions of mineral colloids:
+  new life from old roots.
+\newblock {\em Phil. Trans. R. Soc. A}, 371(1988):20120263, 2013.
 
 \bibitem{reufer2011magnetization}
 Mathias Reufer, Herv{\'e} Dietsch, Urs Gasser, Bernard Grob{\'e}ty, Ann Hirt,
@@ -198,80 +194,84 @@ Mathias Reufer, Herv{\'e} Dietsch, Urs Gasser, Ann Hirt, Andreas Menzel, and
   scattering.
 \newblock {\em The Journal of Physical Chemistry B}, 114(14):4763--4769, 2010.
 
+\bibitem{Note1}
+The pN phase has been described before as a polarized fluid in ref.~\cite
+  {martchenko2016anisotropic}.
+
+\bibitem{kuijk2011synthesis}
+Anke Kuijk, Alfons van Blaaderen, and Arnout Imhof.
+\newblock Synthesis of monodisperse, rodlike silica colloids with tunable
+  aspect ratio.
+\newblock {\em Journal of the American Chemical Society}, 133(8):2346--2349,
+  2011.
+
+\bibitem{purdy2003measuring}
+Kirstin~R Purdy, Zvonimir Dogic, Seth Fraden, Adrian R{\"u}hm, Lawrence Lurio,
+  and Simon~GJ Mochrie.
+\newblock Measuring the nematic order of suspensions of colloidal fd virus by
+  x-ray diffraction and optical birefringence.
+\newblock {\em Physical review E}, 67(3):031708, 2003.
+
+\bibitem{kleshchanok2010structures}
+Dzina Kleshchanok, Andrei~V Petukhov, Peter Holmqvist, Dmytro~V Byelov, and
+  Henk~NW Lekkerkerker.
+\newblock Structures and phase behavior in mixtures of charged colloidal
+  spheres and platelets.
+\newblock {\em Langmuir}, 26(16):13614--13621, 2010.
+
+\bibitem{nallet1993modelling}
+Fr{\'e}d{\'e}ric Nallet, Ren{\'e} Laversanne, and Didier Roux.
+\newblock Modelling x-ray or neutron scattering spectra of lyotropic lamellar
+  phases: interplay between form and structure factors.
+\newblock {\em Journal de Physique II}, 3(4):487--502, 1993.
+
+\bibitem{martchenko2016anisotropic}
+Ilya Martchenko, J{\'e}r{\^o}me~J Crassous, Adriana~M Mihut, Erik Bialik, Ann~M
+  Hirt, Chantal Rufier, Andreas Menzel, Herv{\'e} Dietsch, Per Linse, and Peter
+  Schurtenberger.
+\newblock Anisotropic magnetic particles in a magnetic field.
+\newblock {\em Soft Matter}, 12:8755, 2016.
+
+\bibitem{martchenko2011}
+Ilya Martchenko, Herv{\'e} Dietsch, Christian Moitzi, and Peter Schurtenberger.
+\newblock Hydrodynamic properties of magnetic nanoparticles with tunable shape
+  anisotropy: Prediction and experimental verification.
+\newblock {\em The Journal of Physical Chemistry B}, 115(49):14838--14845,
+  2011.
+
 \bibitem{reufer2012differential}
 Mathias Reufer, Vincent~A Martinez, Peter Schurtenberger, and Wilson~CK Poon.
 \newblock Differential dynamic microscopy for anisotropic colloidal dynamics.
 \newblock {\em Langmuir}, 28(10):4618--4624, 2012.
 
-\bibitem{rossi2010cholesteric}
-Laura Rossi, Stefano Sacanna, and Krassimir~P Velikov.
-\newblock Cholesteric colloidal liquid crystals from phytosterol rod-like
-  particles.
-\newblock {\em Soft Matter}, 7(1):64--67, 2010.
+\bibitem{ocana1999homogeneous}
+Morales Oca{\~n}a, MP~Morales, and CJ~Serna.
+\newblock Homogeneous precipitation of uniform $\alpha$-fe 2 o 3 particles from
+  iron salts solutions in the presence of urea.
+\newblock {\em Journal of colloid and interface science}, 212(2):317--323,
+  1999.
 
-\bibitem{Schurtenberger2016}
-P~Schurtenberger.
-\newblock {Driven self-assembly}.
-\newblock In CN~Likos, F~Sciortino, P~Ziherl, and E~Zaccarelli, editors, {\em
-  Soft Matter Self-Assembly}, pages 81--136. IOS Press, Nieuwe Hemweg 6B, 1013
-  BG Amsterdam, Netherlands, 2016.
+\bibitem{graf2003general}
+Christina Graf, Dirk~LJ Vossen, Arnout Imhof, and Alfons van Blaaderen.
+\newblock A general method to coat colloidal particles with silica.
+\newblock {\em Langmuir}, 19(17):6693--6700, 2003.
 
-\bibitem{shah2015actuation}
-Aayush~A Shah, Benjamin Schultz, Wenjia Zhang, Sharon~C Glotzer, and Michael~J
-  Solomon.
-\newblock Actuation of shape-memory colloidal fibres of janus ellipsoids.
-\newblock {\em Nature materials}, 14(1):117--124, 2015.
-
-\bibitem{van2010uniaxial}
-E~Van~den Pol, DME Thies-Weesie, AV~Petukhov, DV~Byelov, and GJ~Vroege.
-\newblock Uniaxial and biaxial liquid crystal phases in colloidal dispersions
-  of board-like particles.
-\newblock {\em Liquid Crystals}, 37(6-7):641--651, 2010.
-
-\bibitem{van2005evidence}
-D~Van~der Beek, AV~Petukhov, SM~Oversteegen, GJ~Vroege, and HNW Lekkerkerker.
-\newblock Evidence of the hexagonal columnar liquid-crystal phase of hard
-  colloidal platelets by high-resolution saxs.
-\newblock {\em The European Physical Journal E}, 16(3):253--258, 2005.
-
-\bibitem{van2004liquid}
-David van~der Beek and Henk~NW Lekkerkerker.
-\newblock Liquid crystal phases of charged colloidal platelets.
-\newblock {\em Langmuir}, 20(20):8582--8586, 2004.
-
-\bibitem{van2000liquid}
-Felix~M van~der Kooij, Katerina Kassapidou, and Henk~NW Lekkerkerker.
-\newblock Liquid crystal phase transitions in suspensions of polydisperse
-  plate-like particles.
-\newblock {\em Nature}, 406(6798):868, 2000.
-
-\bibitem{van1998formation}
-Felix~M van~der Kooij and Henk~NW Lekkerkerker.
-\newblock Formation of nematic liquid crystals in suspensions of hard colloidal
-  platelets.
-\newblock {\em The Journal of Physical Chemistry B}, 102(40):7829--7832, 1998.
+\bibitem{petukhov2015particle}
+Andrei~V Petukhov, Janne-Mieke Meijer, and Gert~Jan Vroege.
+\newblock Particle shape effects in colloidal crystals and colloidal liquid
+  crystals: small-angle x-ray scattering studies with microradian resolution.
+\newblock {\em Current opinion in colloid \& interface science},
+  20(4):272--281, 2015.
 
 \bibitem{VegaHSC1994}
 Carlos Vega and Santiago Lago.
 \newblock A fast algorithm to evaluate the shortest distance between rods.
 \newblock {\em Computers \& Chemistry}, 18(1):55--59, 1994.
 
-\bibitem{vroege2006smectic}
-Gert~J Vroege, Dominique~ME Thies-Weesie, Andrei~V Petukhov, Bruno~J Lemaire,
-  and Patrick Davidson.
-\newblock Smectic liquid-crystalline order in suspensions of highly
-  polydisperse goethite nanorods.
-\newblock {\em Advanced Materials}, 18(19):2565--2568, 2006.
-
-\bibitem{vroege2014biaxial}
-Gert~Jan Vroege.
-\newblock Biaxial phases in mineral liquid crystals.
-\newblock {\em Liquid Crystals}, 41(3):342--352, 2014.
-
-\bibitem{wijnhoven2005sedimentation}
-Judith~EGJ Wijnhoven, Dani{\"e}lle~D van't Zand, David van~der Beek, and
-  Henk~NW Lekkerkerker.
-\newblock Sedimentation and phase transitions of colloidal gibbsite platelets.
-\newblock {\em Langmuir}, 21(23):10422--10427, 2005.
+\bibitem{PerramJCP1985}
+John~W. Perram and M.S. Wertheim.
+\newblock Statistical mechanics of hard ellipsoids. i. overlap algorithm and
+  the contact function.
+\newblock {\em Journal of Computational Physics}, 58(3):409--416, 1985.
 
 \end{thebibliography}

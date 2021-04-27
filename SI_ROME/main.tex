@@ -125,7 +125,7 @@ To further confirm the isotropy of this phase, it has been calculated the struct
 
 \begin{figure}
     \centering
-    \includegraphics[width=1.1\columnwidth]{Syz_noB.png}
+    \includegraphics[width=1\columnwidth]{Syz_noB.png}
     \caption{Structure factor $S(0, q_y, q_z)$ of the system in absence of magnetic field.}
     \label{fig:Syz_noB}
 \end{figure}
@@ -194,12 +194,12 @@ remain random, while orientations of HE starts aligning (see Fig.~\ref{fig:ordpa
 
 \section{Shape analysis}
 
-The particular behaviour of the particles can be understood by analysing their shape. In particular, it has been obtained the particle borders from a pool of samples belonging to the two aspect ratios ($\rho_1 = 2.82, \rho_2 = 3.69$). By developing a C++ program, the coordinates of the borders have been analysed and fitted using an ellipse and a spherocylinder. Due to the anisotropy of the particles, the analisys has been performed on the left and the right side of the particles independently (Fig. \ref{fig:Part_fit}). The fit minimizes the distance $d$ between the border coordinates of a particle and the nearest point of the fitting shape. The hybrid nature of the particles is easy to notice, particularly using a spherocylindrical fit which is very sensible to the flatness of the particle sides. The results of this analysis are represented in the histograms in Fig. \ref{fig:Mean_dist}. As it can be easily noticed, the analysis on the more elongated particles ($\rho = 3.69$) shows their almost ellipsoidal nature, leading to a lower mean distance. On the contrary, the particles with $\rho = 2.82$ present a more hybrid nature, with a comparable mean distance distribution between the two fits.
+The particular behaviour of the particles can be understood by analysing their shape. In particular, it has been obtained the particle borders from a pool of samples belonging to the two aspect ratios ($\rho_1 = 2.82, \rho_2 = 3.69$). By developing a C++ program, the coordinates of the borders have been analysed and fitted using an ellipse and a spherocylinder shape. Due to the anisotropy of the particles, the analisys has been performed on the left and on the right side of the particles independently (Fig. \ref{fig:Part_fit}). The fit minimizes the distance $d$ between the border coordinates of a particle and the nearest point of the fitting shape. The hybrid nature of the particles is easy to notice, particularly using a spherocylindrical fit which is very sensible to the flatness of the particle sides. The results of this analysis are represented in the histograms in Fig. \ref{fig:Mean_dist}. As it can be easily noticed, the analysis on the more elongated particles ($\rho = 3.69$) shows their almost ellipsoidal nature, leading to a lower mean distance. On the contrary, the particles with $\rho = 2.82$ present a more hybrid nature, with a comparable mean distance distribution between the two fits.
 
 \begin{figure}
     \centering
     \includegraphics[width=1\columnwidth]{Part fit.png}
-    \caption{Particle shape analysis. The border of the particles with $\rho = 3.69$ (a) and $\rho = 2.82$ (b) has been fitted using an ellipse and a spherocylinder.}
+    \caption{Particle shape analysis. The border of the particles with $\rho = 3.69$ (a) and $\rho = 2.82$ (b) has been fitted using an ellipse (in blue) and a spherocylinder (in red).}
     \label{fig:Part_fit}
 \end{figure}
 
@@ -211,7 +211,7 @@ The particular behaviour of the particles can be understood by analysing their s
     \label{fig:Mean_dist}
 \end{figure}
 
-In order to analyse further the shape of the particles, the border of the two pools have been averaged and fitted as before, leading to Fig. \ref{fig:Mean_bord}a. In Fig. \ref{fig:Mean_bord}b, where is represented the mean squared distance $d^2$ of the fit as a function of the normalised position in respect to the centre of the particle. As it can be noticed, the ellispoidal fit raises its $d^2$ moving from $\rho=3.69$ to $\rho=2.82$ while the spherocylindrical one becomes lower, remarking again the hybrid nature of the particles with $\rho=2.82$.
+In order to analyse further the shape of the particles, the border of the two pools have been averaged and fitted as before, leading to Fig. \ref{fig:Mean_bord}a. In Fig. \ref{fig:Mean_bord}b is represented the mean squared distance $d^2$ of the fit as a function of the normalised position in respect to the centre of the particle. As it can be observed, the ellispoidal fit raises its $d^2$ moving from $\rho=3.69$ to $\rho=2.82$ while the spherocylindrical one becomes lower, remarking again the more hybrid nature of the particles with $\rho=2.82$.
 
 \begin{figure}
     \centering
@@ -220,7 +220,7 @@ In order to analyse further the shape of the particles, the border of the two po
     \label{fig:Mean_bord}
 \end{figure}
 
-Thus, the particles can't be described as ellipse neither spherocylinders, instead as a intermediate shape. Hence, to demonstrate the different behaviour of these two types of particles it has been calculated the flatness of the particles as follows. Starting from the middle section of the particles, it has been performed a linear fit of the border, calculating the mean distance $d$ of the border from the fitting line. Then, adding more fitting points, we calculated the maximum distance from the centre of the particle which presented a mean distance $d$ less than a threshold, i. e. $d < 1$. The result of this analysis, represented int Fig. \ref{fig:maxlength_div}, shows that the particles with $\rho=2.82$ presents a much longer flat portion in respect to those with $\rho=3.69$. This flatness can be the reason why the particles with $\rho=2.82$, even though not being perfect spherocylinders, resembles more their behaviour, while keeping the N transition typical of ellipsoids. 
+Thus, the particles can't be described as ellipses neither spherocylinders, instead as a intermediate shape. Hence, to demonstrate the different behaviour of these two types of particles it has been calculated the flatness of the particles as follows. Starting from the middle section of the particles, it has been performed a linear fit of the border, calculating the mean distance $d$ of the border from the fitting line. Then, repeating the procedure while adding more fitting points, we calculated the maximum distance from the centre of the particle which presented a mean distance $d$ less than a threshold, i. e. $d < 5$. The result of this analysis, represented int Fig. \ref{fig:maxlength_div}, shows that the particles with $\rho=2.82$ presents a much longer flat portion in respect to those with $\rho=3.69$. This flatness can be the reason why the particles with $\rho=2.82$, even though not being perfect spherocylinders, resembles more their behaviour, while keeping the N transition typical of ellipsoids. 
 
 \begin{figure}
     \centering

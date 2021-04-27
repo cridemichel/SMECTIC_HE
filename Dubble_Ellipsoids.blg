@@ -1,50 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Dubble_Ellipsoids.aux
-The style file: plain.bst
+The style file: unsrt.bst
 Database file #1: Dubble_EllipsoidsNotes.bib
 Warning--entry type for "Note1" isn't style-file defined
 --line 1 of file Dubble_EllipsoidsNotes.bib
 Database file #2: ref_dubble.bib
 You've used 44 entries,
-            2118 wiz_defined-function locations,
-            794 strings with 13400 characters,
-and the built_in function-call counts, 17111 in all, are:
-= -- 1646
-> -- 989
+            1791 wiz_defined-function locations,
+            743 strings with 12926 characters,
+and the built_in function-call counts, 11540 in all, are:
+= -- 998
+> -- 606
 < -- 2
-+ -- 390
-- -- 344
-* -- 1454
-:= -- 2903
++ -- 218
+- -- 174
+* -- 981
+:= -- 1869
 add.period$ -- 131
 call.type$ -- 44
-change.case$ -- 300
+change.case$ -- 42
 chr.to.int$ -- 0
 cite$ -- 44
-duplicate$ -- 508
-empty$ -- 1192
-format.name$ -- 344
-if$ -- 3424
+duplicate$ -- 420
+empty$ -- 1058
+format.name$ -- 174
+if$ -- 2471
 int.to.chr$ -- 0
 int.to.str$ -- 44
 missing$ -- 42
 newline$ -- 221
-num.names$ -- 88
-pop$ -- 232
+num.names$ -- 45
+pop$ -- 61
 preamble$ -- 1
-purify$ -- 258
+purify$ -- 0
 quote$ -- 0
-skip$ -- 350
+skip$ -- 175
 stack$ -- 0
-substring$ -- 1230
+substring$ -- 1008
 swap$ -- 70
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 176
+type$ -- 0
 warning$ -- 0
-while$ -- 155
+while$ -- 112
 width$ -- 46
 write$ -- 481
 (There was 1 warning)
