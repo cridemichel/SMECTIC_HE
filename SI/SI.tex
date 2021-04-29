@@ -108,7 +108,8 @@ by dark yellow in Fig.\ref{paperclip}(f).
 \begin{figure}
     \centering
     \includegraphics[width=0.4\columnwidth]{Scatteringmodel1.png}
-    \caption{Example configurations for the structure factor calculation. Systems of ellipoids as solids (a) and meshes (b) and spherocylinders as solids (c) and meshes (d).}\label{fig:scatt_mod1}
+    \caption{Example configurations for the structure factor calculation. Systems of ellipsoids as solids (a) and random sets of points 
+    (b) and spherocylinders as solids (c) and random sets of points (d).}\label{fig:scatt_mod1}
 \end{figure}
 
 
@@ -139,9 +140,9 @@ where $N$ is the number of scattering points and $\rho_{\vec{q}}$ is the Fourier
 Monte Carlo simulation in the NVT ensemble for both HEs and HSCs have been carried-out 
 starting by a configuration at $\phi = 0.50$.
 From these simulations we obtained many independent configurations for the centers of masses of both HEs and HSCs. 
-Then, for each configuration we replaced each particle with a random mesh of scattering points proportional to its volume, 
-as shown in Fig.~\ref{fig:scatt_mod_single} and Fig.~\ref{fig:scatt_mod1}, and we calculated $S(q)$ for these random
-sets of scattering points onto a plane parallel to the magnetic field $y$ (i.e.~we calculated $S(0, q_y, q_z)$). 
+Then, for each configuration we replaced each particle with a random set of scattering points 
+of fixed number density, as shown in Fig.~\ref{fig:scatt_mod_single} and Fig.~\ref{fig:scatt_mod1}, and we calculated $S(q)$ 
+for these random sets of scattering points onto a plane parallel to the magnetic field $y$ (i.e.~we calculated $S(0, q_y, q_z)$). 
 The results are shown in Fig.~\ref{fig:Syz_B_HE} for ellipsoids and in Fig.~\ref{fig:Syz_B_HSC} for spherocylinders.
 
 \subsection{Pair distribution function}
@@ -220,7 +221,7 @@ in the main test. On the contrary no evidence of layering emerges in the simulat
 We also calculated the nematic order parameter $S$ related to the symmetry axis of HSC and HE, which
 is defined as the largest eigenvalue of the order tensor $Q$, whose components are:
 \begin{equation}
-  Q_{\alpha\beta} = \frac{1}{N} \sum_i \frac{3}{2} \langle {(\mathbf{u}_i)}_\alpha {(\mathbf{u}_i)}_\beta\rangle
+  Q_{\alpha\beta} = \frac{1}{N} \sum_i \frac{3}{2} \langle {(\vec{u}_i)}_\alpha {(\vec{u}_i)}_\beta\rangle
 \label{eq:nemop}
 \end{equation}
 where $\alpha\beta\in\{x,y,z\}$ and the unit vector ${(\mathbf{u}_i)}_\alpha$ is the component $\alpha$ of the orientation (i.e.~the symmetry axis) of particle $i$.
