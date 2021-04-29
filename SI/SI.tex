@@ -102,30 +102,31 @@ by dark yellow in Fig.\ref{paperclip}(f).
 \begin{figure}
     \centering
     \includegraphics[width=0.4\columnwidth]{Scatteringmodel_single.png}
-    \caption{Solid representations of a ellipsoid (a) and a spherocylinder (c). Mesh representations of a ellipsoid (b) and a spherocylinder (d).}\label{fig:scatt_mod_single}
+    \caption{Solid representations of a ellipsoid (a) and a spherocylinder (c) and their corresponding random sets of points, shown 
+     in panels (b) and (d), respectively.}\label{fig:scatt_mod_single}
 \end{figure}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.4\columnwidth]{Scatteringmodel1.png}
-    \caption{Example configurations for the structure factor calculation. Systems of ellipsoids as solids (a) and random sets of points 
-    (b) and spherocylinders as solids (c) and random sets of points (d).}\label{fig:scatt_mod1}
+    \caption{A set of HEs (a) and HSCs (c) represented as solids and as random sets of points 
+    shown in panels (b) and (d), respectively.}\label{fig:scatt_mod1}
 \end{figure}
 
 
 \begin{figure}
     \centering
     \includegraphics[width=0.5\columnwidth]{Syz_B_HE.png}
-    \caption{Structure factor $S(0, q_y, q_z)$ of a system of hard ellipsoids with the presence of a magnetic field long the y axis at $\phi=0.50$.}\label{fig:Syz_B_HE}
+    \caption{Structure factor $S(0, q_y, q_z)$ of a system of HEs with a magnetic field along the y axis at $\phi=0.50$.}\label{fig:Syz_B_HE}
 \end{figure}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.5\columnwidth]{Syz_B.png}
-    \caption{Structure factor $S(0, q_y, q_z)$ of a system of spherocylinders with the presence of a magnetic field long the y axis at $\phi=0.50$.}\label{fig:Syz_B_HSC}
+    \caption{Structure factor $S(0, q_y, q_z)$ of a system of HSCs with a magnetic field along the y axis at $\phi=0.50$.}\label{fig:Syz_B_HSC}
 \end{figure}
 
-A way to characterize the smectic phase obtained from the simulations is provided by the calculation of the structure factor~\cite{Hansen_McDonald}:
+A way to characterize the smectic phase obtained from the simulations is provided by the calculation of the static structure factor~\cite{Hansen_McDonald}:
 
 \begin{equation}\label{eq:S_q}
     S( \vec{q} ) = \left\langle \frac{1}{N} \rho_{\vec{q}} \rho_{-\vec{q}} \right\rangle 
@@ -137,13 +138,15 @@ where $N$ is the number of scattering points and $\rho_{\vec{q}}$ is the Fourier
     \rho_{\vec{q}} = \sum_{i=1}^N \exp(-i\, \vec{q} \cdot \vec{r}_i)
 \end{equation}
 
-Monte Carlo simulation in the NVT ensemble for both HEs and HSCs have been carried-out 
+Monte Carlo simulation in the NVT ensemble for both hard ellipsoids (HEs) and hard spherocylinders (HSCs) have been carried-out 
 starting by a configuration at $\phi = 0.50$.
 From these simulations we obtained many independent configurations for the centers of masses of both HEs and HSCs. 
-Then, for each configuration we replaced each particle with a random set of scattering points 
-of fixed number density, as shown in Fig.~\ref{fig:scatt_mod_single} and Fig.~\ref{fig:scatt_mod1}, and we calculated $S(q)$ 
-for these random sets of scattering points onto a plane parallel to the magnetic field $y$ (i.e.~we calculated $S(0, q_y, q_z)$). 
-The results are shown in Fig.~\ref{fig:Syz_B_HE} for ellipsoids and in Fig.~\ref{fig:Syz_B_HSC} for spherocylinders.
+In these configurations we replaced each particle with a set of scattering points randomly placed inside it and 
+of fixed number density, as shown in Fig.~\ref{fig:scatt_mod_single} and Fig.~\ref{fig:scatt_mod1}. 
+Finally, for these random sets of points we calculated $S(q)$ onto the plane $yz$ parallel 
+to the magnetic field (i.e.~we calculated $S(0, q_y, q_z)$), where, here and in the following,
+the y-axis is assumed to be parallel to the external magnetic field.
+The results are shown in Fig.~\ref{fig:Syz_B_HE} for HEs and in Fig.~\ref{fig:Syz_B_HSC} for HSCs.
 
 \subsection{Pair distribution function}
 
@@ -154,20 +157,20 @@ Phase behavior can be also characterized by calculating the three-dimensional pa
 \end{equation}
 
 where $\delta(x)$ is the Dirac delta function. 
-We calculated the $g(\vec{r})$ onto the planes $yz$ and $xz$, which are parallel and perpendicular to the magnetic field, respectively
+We calculated the $g(\vec{r})$ onto the planes $yz$ and $xz$, which are parallel and perpendicular to the magnetic field, respectively. 
 The results are shown in Fig.~\ref{fig:gyz_B} and Fig.~\ref{fig:gxz_B} from which the smectic ordering is rather apparent.
 Differently the radial distribution function of HEs does not show any
 layering for all state points studies. A typical example of $g(r)$ for HEs is shown in Fig.~\ref{fig:gyz_B_HE} (yz-plane) and 
 Fig.~\ref{fig:gxz_B_HE} (xz-plane). The anisotropy and structuring shown in Fig.~\ref{fig:gyz_B_HE} reflects the alignment 
 of HEs due to the magnetic field. Differently, the anisotropy
 of the radial distribution function calculated onto a plane perpendicular to the magnetic field, which is shown in 
-Fig.~\ref{fig:gxz_B_HE}, is due to orientational ordering of HEs, which builds up at volume fraction higher than $\approx 0.45$.  
+Fig.~\ref{fig:gxz_B_HE}, is due to orientational ordering of HEs, which builds up at volume fractions higher than $\approx 0.45$.  
 More details on this are provided below (see subsection I-D entitled ``Smectic and nematic order parameters'').
 
 \begin{figure}
     \begin{center}
     \includegraphics[width=0.5\columnwidth]{gyz_B.png}
-    \caption{Pair distribution function for a system of spherocylinders $\phi = 0.50$ in presence of a magnetic field $\vec{B}$ along y axis.}\label{fig:gyz_B}
+    \caption{Pair distribution function for a system of HSCs $\phi = 0.50$ with a magnetic field $\vec{B}$ directed along y axis.}\label{fig:gyz_B}
     \end{center}
 \end{figure}
 
@@ -175,13 +178,13 @@ More details on this are provided below (see subsection I-D entitled ``Smectic a
 \begin{figure}
     \centering
     \includegraphics[width=0.5\columnwidth]{gxz_B.png}
-    \caption{Pair distribution function for a system of spherocylinders $\phi = 0.50$ in presence of a magnetic field $\vec{B}$ along y axis.}\label{fig:gxz_B}
+    \caption{Pair distribution function for a system of spherocylinders $\phi = 0.50$ with a magnetic field $\vec{B}$ directed along y axis.}\label{fig:gxz_B}
 \end{figure}
 
 \begin{figure}
     \begin{center}
     \includegraphics[width=0.4\columnwidth]{gyz_B_HE.png}
-    \caption{Pair distribution function for a system of hard ellipsoids at $\phi = 0.50$ in presence of a magnetic field $\vec{B}$ along y axis.}\label{fig:gyz_B_HE}
+    \caption{Pair distribution function for a system of HEs at $\phi = 0.50$ with a magnetic field $\vec{B}$ directed along y axis.}\label{fig:gyz_B_HE}
     \end{center}
 \end{figure}
 
@@ -189,7 +192,7 @@ More details on this are provided below (see subsection I-D entitled ``Smectic a
 \begin{figure}
     \centering
     \includegraphics[width=0.4\columnwidth]{gxz_B_HE.png}
-    \caption{Pair distribution function for a system of hard ellipsoids at $\phi = 0.50$ in presence of a magnetic field $\vec{B}$ along y axis.}\label{fig:gxz_B_HE}
+    \caption{Pair distribution function for a system of HEs at $\phi = 0.50$ with a magnetic field $\vec{B}$ along y axis.}\label{fig:gxz_B_HE}
 \end{figure}
 %\newpage %usato solo per non far andare l'immagine prima
 
@@ -234,44 +237,47 @@ remain random, while orientations of HE starts aligning (see Fig.~\ref{fig:ordpa
 
 \section{Simulations without magnetic field}
 
-In order to demonstrate the magnetic origin of the smectic phase in these systems, we performed a NTV Monte Carlo simulation at $\phi=0.50$ starting from a smectic configuration  
-of spherocylinders, where we switched-off the external field. 
-It can be seen that, as shown in Fig.~\ref{fig:noB_snapshot}, the system becomes isotropic, thus proving that the smectic phase is an exquisite filed-induced effect.
+In order to demonstrate that the smectic phase observed in the simulations of HSCs is induced by the external magnetic field, 
+we performed a NTV Monte Carlo simulation at $\phi=0.50$ starting from a smectic configuration  
+of HSCs, where we switched-off the external field. 
+As shown in Fig.~\ref{fig:noB_snapshot}, it can be seen that the system becomes isotropic, 
+thus proving that the smectic phase is an exquisite filed-induced effect.
 
 \subsection{Structure factor}
-To further confirm the translational and orientational isotropy of this phase, 
-we calculated the structure factor $S(0, q_y, q_z)$ of the system, which exhibits a typical isotropic pattern, as shown in Fig.~\ref{fig:Syz_noB}.
+To verify that by switching-off the external field an isotropic phase is obtained, 
+we calculated also the static structure factor $S(0, q_y, q_z)$, which exhibits a typical isotropic pattern, 
+as shown in Fig.~\ref{fig:Syz_noB}.
 
 %\newpage    %da togliere
 
 \begin{figure}
     \centering
     \includegraphics[width=0.4\columnwidth]{Isotropic_phase_snap.png}
-    \caption{Snapshot of a system of polydisperse spherocylinders with $\phi = 0.50$ in absence of magnetic field.}\label{fig:noB_snapshot}
+    \caption{Snapshot of a system of HSCs with $\phi = 0.50$ without an external magnetic field.}\label{fig:noB_snapshot}
 \end{figure}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.7\columnwidth]{Syz_noB.png}
-    \caption{Structure factor $S(0, q_y, q_z)$ of the system in absence of magnetic field.}\label{fig:Syz_noB}
+    \caption{Structure factor $S(0, q_y, q_z)$ of HSCs without a magnetic field at $\phi=0.50$.}\label{fig:Syz_noB}
 \end{figure}
 
 \subsection{Pair distribution function}
 
-We also calculated the pair distribution function of a system of spherocylinders where the magnetic field is switched-off. 
+We also calculated the pair distribution function for HSCs with the magnetic field switched-off. 
 As it can be seen in Fig.~\ref{fig:gxz_noB} and Fig.~\ref{fig:gyz_noB}, the system is isotropic, i.e.~long range
 spatial correlation between the particles are absent, thus confirming the field-induced nature of the smectic phase.
 
 \begin{figure}
     \centering
     \includegraphics[width=0.5\columnwidth]{gxz_noB.png}
-    \caption{Pair distribution function of the system on the xz-plane without a magnetic field.}\label{fig:gxz_noB}
+    \caption{Pair distribution function of HSCs without a magnetic field on the xz-plane at $\phi=0.50$.}\label{fig:gxz_noB}
 \end{figure}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.5\columnwidth]{gyz_noB.png}
-    \caption{Pair distribution function of the system on the yz-plane without a magnetic field.}\label{fig:gyz_noB}
+    \caption{Pair distribution function of HSCs without a magnetic field on the yz-plane at $\phi=0.50$.}\label{fig:gyz_noB}
 \end{figure}
 %\newpage
 
@@ -297,10 +303,10 @@ by the chosen fitting shape (i.e.~either $\mathcal{F}_e$ or $\mathcal{F}_s$).
 We calculated $d$ both for $\mathcal{F}e$ and $\mathcal{F}_s$ for all particles and from these values we built the histograms 
 shown in Fig.~\ref{fig:Mean_dist}.
 % TODO: add major axis to figs. S15 a and b and in the legend of Fig. S16 a and b use : and Fe instead of ellipse and spherocylinder
-Since the particles are not symmetric with respect to their major axis, we obtained estimates of $d$ from both
-sides of each particle with respect to such axis (see Figs.~\ref{fig:Part_fit}(a) and~\ref{fig:Part_fit}(b)).
+Since the particles are not symmetric with respect to their major axis, we obtained an estimate of $d$ from each of the two 
+sides with respect of such axis (see Figs.~\ref{fig:Part_fit}(a) and~\ref{fig:Part_fit}(b)).
 It can be seen that the more elongated particles ($\rho = 3.69$) are more ellipsoidal, being the average value of $d$ closer
-to $0$ when particle contours are fitted by $\mathcal{F}_e$ than when they are fitted to $\mathcal{F}_s$. 
+to $0$ when particle contours are fitted by $\mathcal{F}_e$, than when they are fitted to $\mathcal{F}_s$. 
 On the contrary, the particles with $\rho = 2.82$ exhibit an hybrid nature since their average distances to $\mathcal{F}_e$ and 
 to $\mathcal{F}_s$ have comparable values. 
 
@@ -334,8 +340,9 @@ length of the major axis of the mean contour.
 
 First note that, as shown in Fig.~\ref{fig:Mean_dist}(b), values of $\widetilde{x}$ for the fits to $\mathcal{F}_e$ 
 are on average much smaller than the ones for the fits to $\mathcal{F}_s$, thus suggesting that an ellipsoidal shape better reproduces
-the particle contours. Nevertheless, while for the fit to $\mathcal{F}_e$ $\widetilde{d}^2$ is on average larger for the less elongated 
-particles ($\rho=2.82$) than for the more elongated ones ($\rho=3.69$), the opposite behavior is observed for the fit 
+the particle contours. Nevertheless, while for the fit of the mean contour to an ellipse ($\mathcal{F}_e$) $\widetilde{d}^2$ 
+is on average larger for the less elongated particles ($\rho=2.82$) than for the more elongated ones ($\rho=3.69$), 
+the opposite behavior is observed for the fit of the mean contour
 to $\mathcal{F}_s$. Latter result highlights again the hybrid nature of particles with $\rho=2.82$ which to some extent are more
 spherocylinder-like than the ones with $\rho=3.69$.
 
@@ -343,14 +350,14 @@ spherocylinder-like than the ones with $\rho=3.69$.
     \centering
     \includegraphics[width=0.7\columnwidth]{Mean_bord.png}
 \caption{(a) Mean contour of the particles for both elongations (black dots) together with the fits to $\mathcal{F}_e$ and 
-$\mathcal{F}_s$ (blue and red curve respectively). (b) $\widetilde{x}$ as a function of $y/L$.}\label{fig:Mean_bord}
+$\mathcal{F}_s$ (blue and red curve respectively). (b) $\widetilde{x}$ as a function of $y/L_m$.}\label{fig:Mean_bord}
 \end{figure}
 
 To better elucidate the hybrid nature of particles with $\rho=2.82$, in the following we will show that they
 possess on average a more cylinder-like midsection than the ones with $\rho=3.69$. 
 Hence, less elongated particles resemble more spherocylinders in their midsections, being them rather cylinder-like (i.e. ``flat'').
 
-We performed a fit of the contours of each particle to a straight line parallel to their major axis (y-axis)
+We performed a fit of the contours of each particle to a straight line parallel to their major axis of length $L$ (y-axis)
 in the interval $[-l/2, l/2]$ (with $l < L$) and we calculated the average distance $d_f$ of
 the particle's contour from the fitting line over such interval. 
 We repeated latter procedure for several values of $l$ starting from $l=XX$ up to a value $l_{max}$, such that
