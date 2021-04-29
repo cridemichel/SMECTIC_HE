@@ -71,21 +71,21 @@
 %\pacs{}% insert suggested PACS numbers in braces on next line
 
 \maketitle {}%\maketitle must follow title, authors, abstract and \pacs
-\section{Smectic phase characterization}
+\section{Characterization of the phase behavior}
 
 \subsection{Real space structure}
-
-\begin{figure}[]
-\centering
-\includegraphics[width=1\linewidth]{paperclip.png}
-\caption{(a) Real space image of a classical smectic phase formed by colloidal rods and (b) expected x-ray diffraction pattern for it. (c) Real space image of \textit{oblate} smectic phase formed by ellipsoids and (d) expected diffraction x-ray diffraction pattern for it. (e) Smectic phase with layer fluctuation and (d) the corresponding change in the diffraction pattern.}\label{paperclip}
-\end{figure}
 
 %Fig.\ref{paperclip}(a) shows the real space structure of a classical smectic phase consists of rod-like colloids where the particles are aligned along their long axes. As a result, the smectic layers are along their length. Fig.\ref{paperclip}(b) shows the corresponding Fourier space image or the expected x-ray diffraction pattern~\cite{kuijk2012phase, byelov2013situ}. Fig.\ref{paperclip}(c) represents the smectic phase formed by our ellipsoidal particles in the presence of an external field. One can observe that the particles are aligned with their short axes being parallel to the external field. The red doubled arrows show the spacings along the layers. There are also correlations between particles belong to different layers as shown by green lines which result in the formation of a diffused scattering line as shown in Fig.\ref{paperclip}(d) in green. Although from our drawing it seems that the long axes are also aligned, it is not true. In reality they can still rotate around the field as has been shown in Fig. 2. For the drawing, we have not considered all possible rotational conformations but only one; otherwise it will be extremely difficult to draw and point out the different spacings while including the all rotational conformations. Further, The layers in the smectic phase are not rigid but can fluctuate as can be seen in Fig.\ref{paperclip}(e) which elongated the smectic peak in vertical direction as shown by dark yellow in Fig.\ref{paperclip}(f). Combining all the aforementioned effects it is possible to understand the paperclip shape for the smectic phase in our study.
 
 The real space structure of a classical smectic phase consisting of rod-like colloids is schematically shown in Fig.~\ref{paperclip}(a). In this case the
 particles align along their long  axes. As a result, the smectic layers form in a direction parallel to the length of the rods. The corresponding Fourier space
 image or the expected x-ray diffraction pattern of the aforementioned smectic phase is shown in Fig.~\ref{paperclip}(b)~\cite{kuijk2012phase, byelov2013situ}.
+\begin{figure}[]
+\centering
+\includegraphics[width=0.6\columnwidth]{paperclip.png}
+\caption{(a) Real space image of a classical smectic phase formed by colloidal rods and (b) expected x-ray diffraction pattern for it. (c) Real space image of \textit{oblate} smectic phase formed by ellipsoids and (d) expected diffraction x-ray diffraction pattern for it. (e) Smectic phase with layer fluctuation and (d) the corresponding change in the diffraction pattern.}\label{paperclip}
+\end{figure}
+
 However, the smectic phase formed by ellipsoidal particles which in the presence of an external field align with their short axes parallel to the external
 field, has the appearance as shown in Fig.\ref{paperclip}(c). The double headed red arrows indicate the spacings along the smectic layers. Correlations between
 particles which belong to different layers (as indicated by green lines) results in the formation of a diffused scattering line as shown in
@@ -98,6 +98,31 @@ by dark yellow in Fig.\ref{paperclip}(f).
 
 
 \subsection{Static Structure factor}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\columnwidth]{Scatteringmodel_single.png}
+    \caption{Solid representations of a ellipsoid (a) and a spherocylinder (c). Mesh representations of a ellipsoid (b) and a spherocylinder (d).}\label{fig:scatt_mod_single}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\columnwidth]{Scatteringmodel1.png}
+    \caption{Example configurations for the structure factor calculation. Systems of ellipoids as solids (a) and meshes (b) and spherocylinders as solids (c) and meshes (d).}\label{fig:scatt_mod1}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\columnwidth]{Syz_B_HE.png}
+    \caption{Structure factor $S(0, q_y, q_z)$ of a system of hard ellipsoids with the presence of a magnetic field long the y axis at $\phi=0.50$.}\label{fig:Syz_B_HE}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\columnwidth]{Syz_B.png}
+    \caption{Structure factor $S(0, q_y, q_z)$ of a system of spherocylinders with the presence of a magnetic field long the y axis at $\phi=0.50$.}\label{fig:Syz_B_HSC}
+\end{figure}
 
 A way to characterize the smectic phase obtained from the simulations is provided by the calculation of the structure factor~\cite{Hansen_McDonald}:
 
@@ -115,56 +140,32 @@ Monte Carlo simulation in the NVT ensemble for both HEs and HSCs have been carri
 starting by a configuration at $\phi = 0.50$.
 From these simulations we obtained many independent configurations for the centers of masses of both HEs and HSCs. 
 Then, for each configuration we replaced each particle with a random mesh of scattering points proportional to its volume, 
-as shown in Fig.~\ref{fig:scatt_mod_single} and Fig.~\ref{fig:scatt_mod1}, and we calculated $S(q)$ for this random
+as shown in Fig.~\ref{fig:scatt_mod_single} and Fig.~\ref{fig:scatt_mod1}, and we calculated $S(q)$ for these random
 sets of scattering points onto a plane parallel to the magnetic field $y$ (i.e.~we calculated $S(0, q_y, q_z)$). 
 The results are shown in Fig.~\ref{fig:Syz_B_HE} for ellipsoids and in Fig.~\ref{fig:Syz_B_HSC} for spherocylinders.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\columnwidth]{Scatteringmodel_single.png}
-    \caption{Solid representations of a ellipsoid (a) and a spherocylinder (c). Mesh representations of a ellipsoid (b) and a spherocylinder (d).}\label{fig:scatt_mod_single}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\columnwidth]{Scatteringmodel1.png}
-    \caption{Example configurations for the structure factor calculation. Systems of ellipoids as solids (a) and meshes (b) and spherocylinders as solids (c) and meshes (d).}\label{fig:scatt_mod1}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.7\columnwidth]{Syz_B_HE.png}
-    \caption{Structure factor $S(0, q_y, q_z)$ of a system of hard ellipsoids with the presence of a magnetic field long the y axis at $\phi=0.50$.}\label{fig:Syz_B_HE}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.7\columnwidth]{Syz_B.png}
-    \caption{Structure factor $S(0, q_y, q_z)$ of a system of spherocylinders with the presence of a magnetic field long the y axis at $\phi=0.50$.}\label{fig:Syz_B_HSC}
-\end{figure}
-
 \subsection{Pair distribution function}
 
-The spatial characterization of the phases can be further analyzed by  the calculation of the three-dimensional pair distribution function $g(\vec{r})$:
+Phase behavior can be also characterized by calculating the three-dimensional pair distribution function $g(\vec{r})$, i.e.:
 
 \begin{equation}
     g(\vec{r}) = \frac{1}{\rho N} \left\langle \sum_{i=1}^N \sum_{j\neq i} \delta \left( \vec{r} - \left( \vec{r}_i - \vec{r}_j \right) \right) \right\rangle
 \end{equation}
 
-where $\delta(x)$ is the Dirac delta function. This quantity has been calculated averaging on the same configurations used for the structure
-factor~\ref{eq:S_q}, obtaining the pair  distribution function on a plane parallel to the magnetic field $yz$ and on the perpendicular plane $xz$. The results
-are represented in Fig.~\ref{fig:gyz_B} and Fig.~\ref{fig:gxz_B}.  The smectic phase is evident: it can be noticed the different planes along the y axis
-(Fig.~\ref{fig:gyz_B}) and the 2D liquid behaviour in-plane (Fig.~\ref{fig:gxz_B}). Differently the radial distribution function of HEs does not show any
-layering for all state points studies. A typical example of $g(r)$ for HEs is shown in Fig.~\ref{fig:gyz_B_HE} (yz-plane) and Fig.~\ref{fig:gxz_B_HE}
-(xz-plane). The anisotropy and structuring shown in Fig.~\ref{fig:gyz_B_HE} reflect the alignment of HEs due to the magnetic field. Differently, the anisotropy
-of the radial distribution function calculated onto a plane perpendicular to the magnetic field, which is shown in Fig.~\ref{fig:gxz_B_HE}, is due to 
-orientational ordering of HEs, which builds up at volume fraction higher than $\approx 0.45$.  More details on this are provided below (see Section ``Smectic
-and nematic ordering'').
+where $\delta(x)$ is the Dirac delta function. 
+We calculated the $g(\vec{r})$ onto the planes $yz$ and $xz$, which are parallel and perpendicular to the magnetic field, respectively
+The results are shown in Fig.~\ref{fig:gyz_B} and Fig.~\ref{fig:gxz_B} from which the smectic ordering is rather apparent.
+Differently the radial distribution function of HEs does not show any
+layering for all state points studies. A typical example of $g(r)$ for HEs is shown in Fig.~\ref{fig:gyz_B_HE} (yz-plane) and 
+Fig.~\ref{fig:gxz_B_HE} (xz-plane). The anisotropy and structuring shown in Fig.~\ref{fig:gyz_B_HE} reflects the alignment 
+of HEs due to the magnetic field. Differently, the anisotropy
+of the radial distribution function calculated onto a plane perpendicular to the magnetic field, which is shown in 
+Fig.~\ref{fig:gxz_B_HE}, is due to orientational ordering of HEs, which builds up at volume fraction higher than $\approx 0.45$.  
+More details on this are provided below (see subsection I-D entitled ``Smectic and nematic ordering'').
 
 \begin{figure}
     \begin{center}
-    \includegraphics[width=0.7\columnwidth]{gyz_B.png}
+    \includegraphics[width=0.5\columnwidth]{gyz_B.png}
     \caption{Pair distribution function for a system of spherocylinders $\phi = 0.50$ in presence of a magnetic field $\vec{B}$ along y axis.}\label{fig:gyz_B}
     \end{center}
 \end{figure}
@@ -172,13 +173,13 @@ and nematic ordering'').
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\columnwidth]{gxz_B.png}
+    \includegraphics[width=0.5\columnwidth]{gxz_B.png}
     \caption{Pair distribution function for a system of spherocylinders $\phi = 0.50$ in presence of a magnetic field $\vec{B}$ along y axis.}\label{fig:gxz_B}
 \end{figure}
 
 \begin{figure}
     \begin{center}
-    \includegraphics[width=0.7\columnwidth]{gyz_B_HE.png}
+    \includegraphics[width=0.4\columnwidth]{gyz_B_HE.png}
     \caption{Pair distribution function for a system of hard ellipsoids at $\phi = 0.50$ in presence of a magnetic field $\vec{B}$ along y axis.}\label{fig:gyz_B_HE}
     \end{center}
 \end{figure}
@@ -186,56 +187,12 @@ and nematic ordering'').
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\columnwidth]{gxz_B_HE.png}
+    \includegraphics[width=0.4\columnwidth]{gxz_B_HE.png}
     \caption{Pair distribution function for a system of hard ellipsoids at $\phi = 0.50$ in presence of a magnetic field $\vec{B}$ along y axis.}\label{fig:gxz_B_HE}
 \end{figure}
 %\newpage %usato solo per non far andare l'immagine prima
 
-\section{Simulations without magnetic field}
-
-In order to demonstrate the magnetic origin of the smectic phase in these systems, we performed a NTV Monte Carlo simulation at $\phi=0.50$ starting from a smectic configuration  
-of spherocylinders, where we switched-off the external field. 
-It can be seen that, as shown in Fig.~\ref{fig:noB_snapshot}, the system becomes isotropic, thus proving that the smectic phase is an exquisite filed-induced effect.
-
-\subsection{Structure factor}
-To further confirm the translational and orientational isotropy of this phase, 
-we calculated the structure factor $S(0, q_y, q_z)$ of the system, which exhibits a typical isotropic pattern, as shown in Fig.~\ref{fig:Syz_noB}.
-
-%\newpage    %da togliere
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\columnwidth]{Isotropic_phase_snap.png}
-    \caption{Snapshot of a system of polydisperse spherocylinders with $\phi = 0.50$ in absence of magnetic field.}\label{fig:noB_snapshot}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.7\columnwidth]{Syz_noB.png}
-    \caption{Structure factor $S(0, q_y, q_z)$ of the system in absence of magnetic field.}\label{fig:Syz_noB}
-\end{figure}
-
-\subsection{Pair distribution function}
-
-We also calculated the pair distribution function of a system of spherocylinders where the magnetic field is switched-off. 
-As it can be seen in Fig.~\ref{fig:gxz_noB} and Fig.~\ref{fig:gyz_noB}, the system is isotropic, i.e.~long range
-spatial correlation between the particles are absent, thus confirming the field-induced nature of the smectic phase.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.7\columnwidth]{gxz_noB.png}
-    \caption{Pair distribution function of the system on the xz-plane without a magnetic field.}\label{fig:gxz_noB}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.7\columnwidth]{gyz_noB.png}
-    \caption{Pair distribution function of the system on the yz-plane without a magnetic field.}\label{fig:gyz_noB}
-\end{figure}
-
-\newpage
-
-\section{Smectic and nematic ordering}
+\subsection{Smectic and nematic order parameters}
 
 A convenient way to check the emergence of a smectic phase in our computer simulations 
 is to calculate the smectic order parameter $\tau_1$ defined as follows:
@@ -255,8 +212,8 @@ in the main test. On the contrary no evidence of layering emerges in the simulat
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\columnwidth]{smordpar.png}
-    \includegraphics[width=0.7\columnwidth]{nemop.png}  
+    \includegraphics[width=0.45\columnwidth]{smordpar.png}
+    \includegraphics[width=0.45\columnwidth]{nemop.png}  
     \caption{Smectic ($\tau_1$, top) and nematic ($S$, bottom) order parameters for HSCs and HEs.}\label{fig:ordpars}
 \end{figure}
 
@@ -272,6 +229,51 @@ randomly oriented one has $S=1/4$. Hence, below $\phi_0 < 0.45$ both symmetry ax
 randomly oriented onto the plance perpendicular to the magnetic field.
 Interestingly, for $\phi > \phi_0$ HSC starts exhibiting smectic layering but their orientations
 remain random, while orientations of HE starts aligning (see Fig.~\ref{fig:ordpars} (bottom)).
+
+
+\section{Simulations without magnetic field}
+
+In order to demonstrate the magnetic origin of the smectic phase in these systems, we performed a NTV Monte Carlo simulation at $\phi=0.50$ starting from a smectic configuration  
+of spherocylinders, where we switched-off the external field. 
+It can be seen that, as shown in Fig.~\ref{fig:noB_snapshot}, the system becomes isotropic, thus proving that the smectic phase is an exquisite filed-induced effect.
+
+\subsection{Structure factor}
+To further confirm the translational and orientational isotropy of this phase, 
+we calculated the structure factor $S(0, q_y, q_z)$ of the system, which exhibits a typical isotropic pattern, as shown in Fig.~\ref{fig:Syz_noB}.
+
+%\newpage    %da togliere
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\columnwidth]{Isotropic_phase_snap.png}
+    \caption{Snapshot of a system of polydisperse spherocylinders with $\phi = 0.50$ in absence of magnetic field.}\label{fig:noB_snapshot}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\columnwidth]{Syz_noB.png}
+    \caption{Structure factor $S(0, q_y, q_z)$ of the system in absence of magnetic field.}\label{fig:Syz_noB}
+\end{figure}
+
+\subsection{Pair distribution function}
+
+We also calculated the pair distribution function of a system of spherocylinders where the magnetic field is switched-off. 
+As it can be seen in Fig.~\ref{fig:gxz_noB} and Fig.~\ref{fig:gyz_noB}, the system is isotropic, i.e.~long range
+spatial correlation between the particles are absent, thus confirming the field-induced nature of the smectic phase.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\columnwidth]{gxz_noB.png}
+    \caption{Pair distribution function of the system on the xz-plane without a magnetic field.}\label{fig:gxz_noB}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\columnwidth]{gyz_noB.png}
+    \caption{Pair distribution function of the system on the yz-plane without a magnetic field.}\label{fig:gyz_noB}
+\end{figure}
+%\newpage
+
 
 \section{Study of hematite-silica particle shape}
 Phase behavior under an external field is rather sensitive to particle's shape hence in the following

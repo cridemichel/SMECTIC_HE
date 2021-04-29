@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.29)  29 APR 2021 12:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.29)  29 APR 2021 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -242,129 +242,129 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
  [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 78.
+               Default added (so using `tbp') on input line 83.
 
 <paperclip.png, id=14, 1232.605pt x 1463.4675pt>
 File: paperclip.png Graphic file (type png)
 <use paperclip.png>
-Package pdftex.def Info: paperclip.png  used on input line 80.
-(pdftex.def)             Requested size: 468.0pt x 555.6545pt.
-[2] [3 <./paperclip.png>]
-<Scatteringmodel_single.png, id=30, 125.80861pt x 101.76602pt>
+Package pdftex.def Info: paperclip.png  used on input line 85.
+(pdftex.def)             Requested size: 280.80286pt x 333.39716pt.
+[2 <./paperclip.png>]
+<Scatteringmodel_single.png, id=22, 125.80861pt x 101.76602pt>
 File: Scatteringmodel_single.png Graphic file (type png)
 <use Scatteringmodel_single.png>
-Package pdftex.def Info: Scatteringmodel_single.png  used on input line 124.
-(pdftex.def)             Requested size: 234.0pt x 189.29836pt.
-<Scatteringmodel1.png, id=31, 125.80861pt x 101.76602pt>
+Package pdftex.def Info: Scatteringmodel_single.png  used on input line 104.
+(pdftex.def)             Requested size: 187.19714pt x 151.43588pt.
+<Scatteringmodel1.png, id=23, 125.80861pt x 101.76602pt>
 File: Scatteringmodel1.png Graphic file (type png)
 <use Scatteringmodel1.png>
-Package pdftex.def Info: Scatteringmodel1.png  used on input line 130.
-(pdftex.def)             Requested size: 234.0pt x 189.29836pt.
-<Syz_B_HE.png, id=32, 1610.015pt x 1120.185pt>
+Package pdftex.def Info: Scatteringmodel1.png  used on input line 110.
+(pdftex.def)             Requested size: 187.19714pt x 151.43588pt.
+<Syz_B_HE.png, id=24, 1610.015pt x 1120.185pt>
 File: Syz_B_HE.png Graphic file (type png)
 <use Syz_B_HE.png>
-Package pdftex.def Info: Syz_B_HE.png  used on input line 137.
-(pdftex.def)             Requested size: 327.59857pt x 227.93015pt.
-<Syz_B.png, id=33, 1542.76375pt x 1056.94875pt>
+Package pdftex.def Info: Syz_B_HE.png  used on input line 117.
+(pdftex.def)             Requested size: 234.0pt x 162.80725pt.
+<Syz_B.png, id=25, 1542.76375pt x 1056.94875pt>
 File: Syz_B.png Graphic file (type png)
 <use Syz_B.png>
-Package pdftex.def Info: Syz_B.png  used on input line 143.
-(pdftex.def)             Requested size: 327.59857pt x 224.43332pt.
- [4 <./Scatteringmodel_single.png (PNG copy)>] [5 <./Scatteringmodel1.png (PNG copy)> <./Syz_B_HE.png>]
-<gyz_B.png, id=42, 1505.625pt x 1505.625pt>
+Package pdftex.def Info: Syz_B.png  used on input line 123.
+(pdftex.def)             Requested size: 234.0pt x 160.30951pt.
+ [3 <./Scatteringmodel_single.png (PNG copy)>] [4 <./Scatteringmodel1.png (PNG copy)> <./Syz_B_HE.png>]
+<gyz_B.png, id=39, 1505.625pt x 1505.625pt>
 File: gyz_B.png Graphic file (type png)
 <use gyz_B.png>
-Package pdftex.def Info: gyz_B.png  used on input line 167.
-(pdftex.def)             Requested size: 327.59857pt x 327.58566pt.
-<gxz_B.png, id=43, 1505.625pt x 1505.625pt>
+Package pdftex.def Info: gyz_B.png  used on input line 168.
+(pdftex.def)             Requested size: 234.0pt x 233.98976pt.
+<gxz_B.png, id=40, 1505.625pt x 1505.625pt>
 File: gxz_B.png Graphic file (type png)
 <use gxz_B.png>
-Package pdftex.def Info: gxz_B.png  used on input line 175.
-(pdftex.def)             Requested size: 374.40143pt x 374.40659pt.
-<gyz_B_HE.png, id=44, 932.48375pt x 859.21pt>
+Package pdftex.def Info: gxz_B.png  used on input line 176.
+(pdftex.def)             Requested size: 234.0pt x 233.98976pt.
+<gyz_B_HE.png, id=41, 932.48375pt x 859.21pt>
 File: gyz_B_HE.png Graphic file (type png)
 <use gyz_B_HE.png>
-Package pdftex.def Info: gyz_B_HE.png  used on input line 181.
-(pdftex.def)             Requested size: 327.59857pt x 301.85551pt.
-<gxz_B_HE.png, id=45, 961.5925pt x 870.25125pt>
+Package pdftex.def Info: gyz_B_HE.png  used on input line 182.
+(pdftex.def)             Requested size: 187.19714pt x 172.48137pt.
+<gxz_B_HE.png, id=42, 961.5925pt x 870.25125pt>
 File: gxz_B_HE.png Graphic file (type png)
 <use gxz_B_HE.png>
-Package pdftex.def Info: gxz_B_HE.png  used on input line 189.
-(pdftex.def)             Requested size: 327.59857pt x 296.47906pt.
-<Isotropic_phase_snap.png, id=46, 991.705pt x 990.70125pt>
-File: Isotropic_phase_snap.png Graphic file (type png)
-<use Isotropic_phase_snap.png>
-Package pdftex.def Info: Isotropic_phase_snap.png  used on input line 208.
-(pdftex.def)             Requested size: 234.0pt x 233.75208pt.
-<Syz_noB.png, id=47, 3011.25pt x 1505.625pt>
-File: Syz_noB.png Graphic file (type png)
-<use Syz_noB.png>
-Package pdftex.def Info: Syz_noB.png  used on input line 214.
-(pdftex.def)             Requested size: 327.59857pt x 163.78134pt.
- [6 <./Syz_B.png>]
-<gxz_noB.png, id=52, 1505.625pt x 1505.625pt>
-File: gxz_noB.png Graphic file (type png)
-<use gxz_noB.png>
-Package pdftex.def Info: gxz_noB.png  used on input line 226.
-(pdftex.def)             Requested size: 327.59857pt x 327.58566pt.
-<gyz_noB.png, id=53, 1505.625pt x 1505.625pt>
-File: gyz_noB.png Graphic file (type png)
-<use gyz_noB.png>
-Package pdftex.def Info: gyz_noB.png  used on input line 232.
-(pdftex.def)             Requested size: 327.59857pt x 327.58566pt.
- [7 <./gyz_B.png>] [8 <./gxz_B.png>]
-<smordpar.png, id=62, 794.97pt x 614.295pt>
+Package pdftex.def Info: gxz_B_HE.png  used on input line 190.
+(pdftex.def)             Requested size: 187.19714pt x 169.41281pt.
+ [5 <./Syz_B.png>] [6 <./gyz_B.png> <./gxz_B.png>] [7 <./gyz_B_HE.png> <./gxz_B_HE.png>]
+<smordpar.png, id=57, 794.97pt x 614.295pt>
 File: smordpar.png Graphic file (type png)
 <use smordpar.png>
-Package pdftex.def Info: smordpar.png  used on input line 258.
-(pdftex.def)             Requested size: 327.59857pt x 253.14673pt.
-<nemop.png, id=63, 794.97pt x 614.295pt>
+Package pdftex.def Info: smordpar.png  used on input line 215.
+(pdftex.def)             Requested size: 210.59857pt x 162.73116pt.
+<nemop.png, id=58, 794.97pt x 614.295pt>
 File: nemop.png Graphic file (type png)
 <use nemop.png>
-Package pdftex.def Info: nemop.png  used on input line 259.
-(pdftex.def)             Requested size: 327.59857pt x 253.14673pt.
- [9 <./gyz_B_HE.png>] [10 <./gxz_B_HE.png> <./Isotropic_phase_snap.png>] [11 <./Syz_noB.png> <./gxz_noB.png>] [12 <./gyz_noB.png>] [13 <./smordpar.png> <./nemop.png>]
-<Part fit.png, id=85, 142.26378pt x 73.97717pt>
+Package pdftex.def Info: nemop.png  used on input line 216.
+(pdftex.def)             Requested size: 210.59857pt x 162.73116pt.
+ [8 <./smordpar.png> <./nemop.png>]
+<Isotropic_phase_snap.png, id=64, 991.705pt x 990.70125pt>
+File: Isotropic_phase_snap.png Graphic file (type png)
+<use Isotropic_phase_snap.png>
+Package pdftex.def Info: Isotropic_phase_snap.png  used on input line 248.
+(pdftex.def)             Requested size: 187.19714pt x 186.9956pt.
+<Syz_noB.png, id=65, 3011.25pt x 1505.625pt>
+File: Syz_noB.png Graphic file (type png)
+<use Syz_noB.png>
+Package pdftex.def Info: Syz_noB.png  used on input line 254.
+(pdftex.def)             Requested size: 327.59857pt x 163.78134pt.
+<gxz_noB.png, id=66, 1505.625pt x 1505.625pt>
+File: gxz_noB.png Graphic file (type png)
+<use gxz_noB.png>
+Package pdftex.def Info: gxz_noB.png  used on input line 266.
+(pdftex.def)             Requested size: 234.0pt x 233.98976pt.
+<gyz_noB.png, id=67, 1505.625pt x 1505.625pt>
+File: gyz_noB.png Graphic file (type png)
+<use gyz_noB.png>
+Package pdftex.def Info: gyz_noB.png  used on input line 272.
+(pdftex.def)             Requested size: 234.0pt x 233.98976pt.
+ [9 <./Isotropic_phase_snap.png>] [10 <./Syz_noB.png> <./gxz_noB.png>]
+<Part fit.png, id=74, 142.26378pt x 73.97717pt>
 File: Part fit.png Graphic file (type png)
 <use Part fit.png>
-Package pdftex.def Info: Part fit.png  used on input line 308.
+Package pdftex.def Info: Part fit.png  used on input line 310.
 (pdftex.def)             Requested size: 444.59857pt x 231.21303pt.
-<Mean_dist.png, id=86, 217.37906pt x 95.79094pt>
+<Mean_dist.png, id=75, 217.37906pt x 95.79094pt>
 File: Mean_dist.png Graphic file (type png)
 <use Mean_dist.png>
-Package pdftex.def Info: Mean_dist.png  used on input line 315.
+Package pdftex.def Info: Mean_dist.png  used on input line 317.
 (pdftex.def)             Requested size: 444.59857pt x 195.92102pt.
- [14 <./Part fit.png (PNG copy)>]
-<Mean_bord.png, id=90, 232.98065pt x 124.81276pt>
+ [11 <./gyz_noB.png>] [12 <./Part fit.png (PNG copy)> <./Mean_dist.png (PNG copy)>]
+<Mean_bord.png, id=83, 232.98065pt x 124.81276pt>
 File: Mean_bord.png Graphic file (type png)
 <use Mean_bord.png>
-Package pdftex.def Info: Mean_bord.png  used on input line 341.
+Package pdftex.def Info: Mean_bord.png  used on input line 343.
 (pdftex.def)             Requested size: 327.59857pt x 175.50987pt.
- [15 <./Mean_dist.png (PNG copy)> <./Mean_bord.png (PNG copy)>]
-<maxlength_div.png, id=94, 123.72206pt x 97.73521pt>
+ [13 <./Mean_bord.png (PNG copy)>]
+<maxlength_div.png, id=88, 123.72206pt x 97.73521pt>
 File: maxlength_div.png Graphic file (type png)
 <use maxlength_div.png>
-Package pdftex.def Info: maxlength_div.png  used on input line 363.
+Package pdftex.def Info: maxlength_div.png  used on input line 365.
 (pdftex.def)             Requested size: 234.0pt x 184.85321pt.
  (./SI.bbl)
 
 Class revtex4-1 Warning: Command \draft is obsolete;
 Invoke option draft instead..
 
-[16 <./maxlength_div.png>] (./SI.aux) ) 
+[14 <./maxlength_div.png>] (./SI.aux) ) 
 Here is how much of TeX's memory you used:
  4485 strings out of 478994
- 60330 string characters out of 5858184
- 372484 words of memory out of 5000000
+ 60332 string characters out of 5858184
+ 368481 words of memory out of 5000000
  21928 multiletter control sequences out of 15000+600000
  411264 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,7n,74p,1616b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SI.pdf (16 pages, 8457615 bytes).
+Output written on SI.pdf (14 pages, 8456888 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
