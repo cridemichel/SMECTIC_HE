@@ -18,7 +18,8 @@
 \usepackage{xcolor}
 \renewcommand{\thefigure}{S\arabic{figure}}
 %\usepackage{siunitx}
-
+\def\ontop#1#2{\genfrac{}{}{0pt}{}{#1}{#2}}
+% chktex-file 35
 \draft% marks overfull lines with a black rule on the right
 
 \begin{document}
@@ -110,9 +111,13 @@ where $N$ is the number of scattering points and $\rho_{\vec{q}}$ is the Fourier
     \rho_{\vec{q}} = \sum_{i=1}^N \exp(-i\, \vec{q} \cdot \vec{r}_i)
 \end{equation}
 
-In order to compute the average in equation~\ref{eq:S_q}, a Monte Carlo simulation in the NVT ensemble has been performed starting by a configuration in the smectic phase $(\phi = 0.50)$. 
-Each particle of the system is substituted by a random mesh of scattering points proportional to its volume, as represented in Fig.~\ref{fig:scatt_mod_single} and Fig.~\ref{fig:scatt_mod1}. 
-Given the in-plane 2D isotropy of the smectic phase, it has been calculated the structure factor relative to a plane parallel to the magnetic field $y$, namely $S(0, q_y, q_z)$. The results of these analyses are shown in Fig.~\ref{fig:Syz_B_HE} for ellipsoids and in Fig.~\ref{fig:Syz_B_HSC} for spherocylinders.
+Monte Carlo simulation in the NVT ensemble for both HEs and HSCs have been carried-out 
+starting by a configuration at $\phi = 0.50$.
+From these simulations we obtained many independent configurations for the centers of masses of both HEs and HSCs. 
+Then, for each configuration we replaced each particle with a random mesh of scattering points proportional to its volume, 
+as shown in Fig.~\ref{fig:scatt_mod_single} and Fig.~\ref{fig:scatt_mod1}, and we calculated $S(q)$ for this random
+sets of scattering points onto a plane parallel to the magnetic field $y$ (i.e.~we calculated $S(0, q_y, q_z)$). 
+The results are shown in Fig.~\ref{fig:Syz_B_HE} for ellipsoids and in Fig.~\ref{fig:Syz_B_HSC} for spherocylinders.
 
 \begin{figure}
     \centering
@@ -273,50 +278,90 @@ Phase behavior under an external field is rather sensitive to particle's shape h
 we carefully study the shape of hematite-silica particles.
 We obtained the 2D contours (as set of 2D points) of particles with aspect ratio $\rho_1 = 2.82, \rho_2 = 3.69$ from TEM images 
 (see Figs. 1(a) and 1(b) in the manuscript).
-Then, these contours were fitted to ellipses and to the 2D curve which is obtained by projecting a spherocylinder onto a plane parallel
-to its symmetry axis.
-% TODO: rewrite shape text
-By developing a C++ program, the coordinates of the borders have been analysed and
-fitted using an ellipse and a spherocylinder shape. Due to the anisotropy of the particles, the analisys has been performed on the left and on the right side of
-the particles independently (Fig.~\ref{fig:Part_fit}). The fit minimizes the distance $d$ between the border coordinates of a particle and the nearest point of
-the fitting shape. The hybrid nature of the particles is easy to notice, particularly using a spherocylindrical fit which is very sensible to the flatness of
-the particle sides. The results of this analysis are represented in the histograms in Fig.~\ref{fig:Mean_dist}. As it can be easily noticed, the analysis on the
-more elongated particles ($\rho = 3.69$) shows their almost ellipsoidal nature, leading to a lower mean distance. On the contrary, the particles with $\rho =
-2.82$ present a more hybrid nature, with a comparable mean distance distribution between the two fits.
+Then, these contours were fitted by an ellipse ($\mathcal{F}_{e}$) and by the 2D curve which is obtained by projecting a spherocylinder 
+onto a plane parallel to its symmetry axis ($\mathcal{F}_{s}$). In the following, we will refer to latter curve also as 
+``spherocylinder'' for the sake of simplicity.
+
+If $\mathcal{C}$ is the set of points which forms the contour of a particle, then we can define the distance $d$ between
+$\mathcal{C}$ and $\mathcal{F}_\alpha$, with $\alpha\in\{e,s\}$, as follows:
+\begin{equation}
+  d \equiv \min_{\ontop{(x_c,y_c)}{(x_{fit}, y_{fit})}} \sqrt{{(x_c - x_{fit})}^2 + {(y_c - y_{fit})}^2}\label{eq:distdef}
+\end{equation}
+where $(x_c,y_c)\in \mathcal{C}$ and $(x_{fit},y_{fit})$ belongs either to $\mathcal{F}_e$ or $\mathcal{F}_s$.
+Note that if $d=0$ for a given particle this means that the particle has a contour which is perfectly fitted
+by the chosen fitting shape (i.e.~either $\mathcal{F}_e$ or $\mathcal{F}_s$).
+
+We calculated $d$ both for $\mathcal{F}e$ and $\mathcal{F}_s$ for all particles and from these values we built the histograms 
+shown in Fig.~\ref{fig:Mean_dist}.
+% TODO: add major axis to figs. S15 a and b and in the legend of Fig. S16 a and b use : and Fe instead of ellipse and spherocylinder
+Since the particles are not symmetric with respect to their major axis, we obtained estimates of $d$ from both
+sides of each particle with respect to such axis (see Figs.~\ref{fig:Part_fit}(a) and~\ref{fig:Part_fit}(b)).
+It can be seen that the more elongated particles ($\rho = 3.69$) are more ellipsoidal, being the average value of $d$ closer
+to $0$ when particle contours are fitted by $\mathcal{F}_e$ than when they are fitted to $\mathcal{F}_s$. 
+On the contrary, the particles with $\rho = 2.82$ exhibit an hybrid nature since their average distances to $\mathcal{F}_e$ and 
+to $\mathcal{F}_s$ have comparable values. 
+
+%with a comparable mean distance distribution between the two fits.
 
 \begin{figure}
     \centering
     \includegraphics[width=0.95\columnwidth]{Part fit.png}
-    \caption{Particle shape analysis. The border of the particles with $\rho = 3.69$ (a) and $\rho = 2.82$ (b) has been fitted using an ellipse (in blue) and a spherocylinder (in red).}\label{fig:Part_fit}
+    \caption{Contours of particles with $\rho = 3.69$ (a) and $\rho = 2.82$ (b) has been fitted using an ellipse (in blue) and a 
+    spherocylinder (in red).}\label{fig:Part_fit}
 \end{figure}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.95\columnwidth]{Mean_dist.png}
-    \caption{Probability density of the minimum mean distance $d$ between the border of the particles ($\rho = 3.69$ (a) and $\rho = 2.82$ (b)) and the fitting shape.}\label{fig:Mean_dist}
+    \caption{Probability density of the distance $d$ for both fitting shapes $\mathcal{F}_e$ (ellipse) and $\mathcal{F}_s$ 
+      (spherocylinder). (a) $\rho = 3.69$ and (b) $\rho = 2.82$.}\label{fig:Mean_dist}
 \end{figure}
 
-In order to analyse further the shape of the particles, the border of the two pools have been averaged and fitted as before, leading to Fig.~\ref{fig:Mean_bord}a. 
-In Fig.~\ref{fig:Mean_bord}b is represented the mean squared distance $d^2$ of the fit as a function of the normalised position in respect
-to the centre of the particle. As it can be observed, the ellispoidal fit raises its $d^2$ moving from $\rho=3.69$ to $\rho=2.82$ while the spherocylindrical
-one becomes lower, remarking again the more hybrid nature of the particles with $\rho=2.82$.
+To further characterize the shape of particles, starting from the contours $\mathcal{C}$ of all particles, for both $\rho=3.69$
+and $\rho=2.82$ we built the ``mean'' contour as shown in Fig.~\ref{fig:Mean_bord}(a).
+Then, we fitted these mean contours to $\mathcal{F}_s$ and $\mathcal{F}_e$ and we calculated for each point belonging to the 
+contour the quantity:
+\begin{equation}
+  \widetilde{x}^2 = {(x_c - x_{fit})}^2 
+\end{equation}
+Figure~\ref{fig:Mean_bord}(b) shows $\widetilde{x}$ as a function of $y_c/L_m$ (normalized position) where $L_m$ is the 
+length of the major axis of the mean contour.
+% TODO: in Fig. S17 use a different name for the distance, show explicitly the reference system in Fig. S17 a 
+% replace d^2 with \widetilde{x}^2 in Fig. S17
+
+First note that, as shown in Fig.~\ref{fig:Mean_dist}(b), values of $\widetilde{x}$ for the fits to $\mathcal{F}_e$ 
+are on average much smaller than the ones for the fits to $\mathcal{F}_s$, thus suggesting that an ellipsoidal shape better reproduces
+the particle contours. Nevertheless, while for the fit to $\mathcal{F}_e$ $\widetilde{d}^2$ is on average larger for the less elongated 
+particles ($\rho=2.82$) than for the more elongated ones ($\rho=3.69$), the opposite behavior is observed for the fit 
+to $\mathcal{F}_s$. Latter result highlights again the hybrid nature of particles with $\rho=2.82$ which to some extent are more
+spherocylinder-like than the ones with $\rho=3.69$.
+
 \begin{figure}
     \centering
     \includegraphics[width=0.7\columnwidth]{Mean_bord.png}
-\caption{(a) Average border of the particles with the two $\rho$ (black dots). Superposed are represented the two different fits that have been performed (ellipse in blue and spherocylinder in red). (b) Mean squared distance of the border from the fits as a function of the normalised distance from the centre, which corresponds to the $0$ of the vertical axis.}\label{fig:Mean_bord}
+\caption{(a) Mean contour of the particles for both elongations (black dots) together with the fits to $\mathcal{F}_e$ and 
+$\mathcal{F}_s$ (blue and red curve respectively). (b) $\widetilde{x}$ as a function of $y/L$.}\label{fig:Mean_bord}
 \end{figure}
-Thus, the particles can't be described as ellipses neither spherocylinders, instead as a intermediate shape. Hence, to demonstrate the different behaviour of
-these two types of particles it has been calculated the flatness of the particles as follows. Starting from the middle section of the particles, it has been
-performed a linear fit of the border, calculating the mean distance $d$ of the border from the fitting line. Then, repeating the procedure while adding more
-fitting points, we calculated the maximum distance from the centre of the particle which presented a mean distance $d$ less than a threshold, i.e. $d < 5$. The
-result of this analysis, represented int Fig.~\ref{fig:maxlength_div}, shows that the particles with $\rho=2.82$ presents a much longer flat portion in respect
-to those with $\rho=3.69$. This flatness can be the reason why the particles with $\rho=2.82$, even though not being perfect spherocylinders, resembles more
-their behaviour, while keeping the N transition typical of ellipsoids. 
+
+To better elucidate the hybrid nature of particles with $\rho=2.82$, in the following we will show that they
+possess on average a more cylinder-like midsection than the ones with $\rho=3.69$. 
+Hence, less elongated particles resemble more spherocylinders in their midsections, being them rather cylinder-like (i.e. ``flat'').
+
+We performed a fit of the contours of each particle to a straight line parallel to their major axis (y-axis)
+in the interval $[-l/2, l/2]$ (with $l < L$) and we calculated the average distance $d_f$ of
+the particle's contour from the fitting line over such interval. 
+We repeated latter procedure for several values of $l$ starting from $l=XX$ up to a value $l_{max}$, such that
+$d_f > 5$ (in units of pixels). $l_{max}$ quantifies the flatness of the midsection of the particles, in that 
+the larger $l_{max}$ and the flatter can be considered the midsection of particles.
+
+The result of this analysis can be found in Fig.~\ref{fig:maxlength_div}, where histograms of $l_{max}/L$ values are shown
+for both elongations. Since the histogram is peaked around a larger value of $l_{max}/L$ for $\rho=2.82$, one can conclude
+that less elongated particles have a more extended cylinder-like (flat) midsection. 
 
 \begin{figure}
     \centering
     \includegraphics[width=0.5\columnwidth]{maxlength_div.png}
-    \caption{Probability density of the flat portion of the particles with the two different aspect ratios: $\rho=3.69$ in red and $\rho=2.82$ in blue.}\label{fig:maxlength_div}
+    \caption{Probability density for $l_{max}$ for both aspect ratios $\rho=3.69$ (red) and $\rho=2.82$ (blue).}\label{fig:maxlength_div}
 \end{figure}
 
 \bibliography{ref_dubble}
