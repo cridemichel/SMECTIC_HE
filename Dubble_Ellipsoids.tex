@@ -251,8 +251,8 @@ thus suggesting that this transition is either weakly first order or second orde
 The structure factor similarly reflects the absence of any layering in the system, and it can 
 be straightforwardly compared with the experimental one show in Fig.~\ref{z_scan}(b). Here we note that the structure factor that we calculated from the simulations
 includes the form factor and thus represents an effective structure factor as measured by SAXS, and moreover corresponds to $\mathbf{q}$-values lying onto the plane identified by the external field (B, i.e.~y-axis) and 
-a direction perpendicular to it ($z$-axis), so that a direct comparison with experiments can be made.
-Our MC simulations are thus not capable to reproduce the occurrence of a smectic phase, but instead reveal the same qualitative phase behavior as expected for HEs with larger aspect ratio, according to numerical studies reported in Ref.~\cite{martchenko2016anisotropic}. The qualitatively different phase behavior for the two aspec ratios and the existence of an additional field-induced smectic phase observed in our experiments for particles with an aspect ratio of $\rho = 2.82$ is thus not in agreement with a model of polydisperse hard ellipsoids. }
+a direction perpendicular to it ($z$-axis), so that a direct comparison with experiments can be made (see SI for more details).
+Our MC simulations are thus not capable to reproduce the occurrence of a smectic phase, but instead reveal the same qualitative phase behavior as expected for HEs with larger aspect ratio, according to numerical studies reported in Ref.~\cite{martchenko2016anisotropic}. The qualitatively different phase behavior for the two aspect ratios and the existence of an additional field-induced smectic phase observed in our experiments for particles with an aspect ratio of $\rho = 2.82$ is thus not in agreement with a model of polydisperse hard ellipsoids. }
 
 
 
@@ -265,10 +265,20 @@ Monte Carlo Simulations}\label{fig:sim}
 
 
 
-\textcolor{red}{A subsequent close inspection of the actual particle images using TEM (Fig.~\ref{z_scan}(a, b)) reveals that the two particle systems differ not only in size and aspect ratio, but that they also show subtle but systematic differences in their geometrical shape. Hematite-silica core-shell particles of aspect ratio $\rho=3.69$  (see~\ref{z_scan}(b) and SI)
-closely resemble hard ellipsoids (HEs). In contrast, while the particles with the smaller aspect ratio $\rho=2.82$ are overall still best described by a model of an ellipsoid, they possess a  
-hybrid shape. Their midsection contains a considerably more cylinder-like (i.e.~flatter) portion that resembles a hard spherocylinder (HSCs), 
-while their ends are best described by a uni-axial hard ellipsoid model (HEs) as shown in Fig.\ref{z_scan}(a). These qualitative differences are further described using a more quantitative image analysis approach described in detail in SI. In order to investigate the influence of shape more systematically, we have thus also performed MC simulations using a model of polydisperse hard spherocylinders (HSC), which resemble the straight sections present in our particles with $\rho=2.82$ more closely (see SI). Polydispersity was implemented again as described above for the HEs. The results from these additional simulations are summarized in Figs.~\ref{fig:sim}b, where we show the EOS as well as a characteristic snapshot and the corresponding static structure factor at a volume fraction of $\phi \approx 0.5$.}
+\textcolor{red}{A subsequent close inspection of the actual particle images using TEM (Fig.~\ref{z_scan}(a, b)) reveals
+  that the two particle systems differ not only in size and aspect ratio, but that they also show subtle but systematic
+  differences in their geometrical shape. Hematite-silica core-shell particles of aspect ratio $\rho=3.69$ 
+  (see~\ref{z_scan}(b) and SI) closely resemble hard ellipsoids (HEs). In contrast, while the particles with the smaller
+  aspect ratio $\rho=2.82$ are overall still best described by a model of an ellipsoid, they possess a    hybrid shape.
+  Their midsection contains a considerably more cylinder-like (i.e.~flatter) portion that resembles a hard
+  spherocylinder (HSCs),  while their ends are best described by a uni-axial hard ellipsoid model (HEs) as shown in
+  Fig.\ref{z_scan}(a). These qualitative differences are further described using a more quantitative image analysis
+  approach described in detail in SI.\@ In order to investigate the influence of shape more systematically, we have thus
+  also performed MC simulations using a model of polydisperse hard spherocylinders (HSC), which resemble the straight
+  sections present in our particles with $\rho=2.82$ more closely (see SI). Polydispersity was implemented again as
+  described above for the HEs. The results from these additional simulations are summarized in Figs.~\ref{fig:sim}b,
+  where we show the EOS as well as a characteristic snapshot and the corresponding static structure factor at a volume
+fraction of $\phi \approx 0.5$.}
 
 The phase behavior of HSCs in the presence of an external field is richer when compared to the HSE, and we now find three phases: a para-nematic (pN) 
 phase, analogous to the one observed for HEs, a smectic A phase (SmA) where the layers 
@@ -292,8 +302,19 @@ even if some amount of polydispersity is present in the system. }
 
 % TODO IMPROVE THIS COMMENT 
 
-\textcolor{red}{While the HSC simulations are capable of reproducing the occurrence of a field-induced smectic phase, a comparison between the exoerimental observations (Fig.~\ref{z_scan}) and the simulation results (Fig.~\ref{fig:sim}(b)) also reveals clear differences. Whereas the hematite-silica particles with $\rho_1=2.82$ undergo a transition to a nematic N-phase, this phase is absent for HSCs, also in agreement with the phase diagram of monodisperse HSCs
-with the same aspect ratio~\cite{Bolhuis1997}. On the other hand, such a nematic phase is present for HSE, whose phase diagram mimics the one observed for the hematite-silica particles with $\rho=3.69$. This clearly indicates the importance of the actual shape, and of small but systematic local deviations from the ideal geometrical models. While these hematite-silica particles overall resemble ellipsoids, and have previously been used successfully in a number of studies as experimental model systems for ellipsoidal colloids, field-driven self assembly at higher volume fractions is obviously much more sensitive. Here the hybrid nature of the experimental particles becomes important, and the subtle shift from a particle that is locally better described by a spherocylinder ($\rho_1=2.82$) to one where the ellipsoidal geometry dominates ($ \rho=3.69$) is decisive for the resulting field-induced phase behavior (see also SI for more information on the quantitative image analysis for both particles).}
+\textcolor{red}{While the HSC simulations are capable of reproducing the occurrence of a field-induced smectic phase, a
+  comparison between the experimental observations (Fig.~\ref{z_scan}) and the simulation results
+  (Fig.~\ref{fig:sim}(b)) also reveals clear differences. Whereas the hematite-silica particles with $\rho_1=2.82$
+  undergo a transition to a nematic N-phase, this phase is absent for HSCs, also in agreement with the phase diagram of
+  monodisperse HSCs with the same aspect ratio~\cite{Bolhuis1997}. On the other hand, such a nematic phase is present
+  for HSE, whose phase diagram mimics the one observed for the hematite-silica particles with $\rho=3.69$. This clearly
+  indicates the importance of the actual shape, and of small but systematic local deviations from the ideal geometrical
+  models. While these hematite-silica particles overall resemble ellipsoids, and have previously been used successfully
+  in a number of studies as experimental model systems for ellipsoidal colloids, field-driven self assembly at higher
+  volume fractions is obviously much more sensitive. Here the hybrid nature of the experimental particles becomes
+  important, and the subtle shift from a particle that is locally better described by a spherocylinder ($\rho_1=2.82$)
+  to one where the ellipsoidal geometry dominates ($ \rho=3.69$) is decisive for the resulting field-induced phase
+behavior (see also SI for more information on the quantitative image analysis for both particles).}
 
 
 
