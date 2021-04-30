@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.29)  29 APR 2021 19:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.29)  30 APR 2021 08:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -324,33 +324,33 @@ File: gyz_noB.png Graphic file (type png)
 Package pdftex.def Info: gyz_noB.png  used on input line 279.
 (pdftex.def)             Requested size: 234.0pt x 233.98976pt.
  [9 <./Isotropic_phase_snap.png>] [10 <./Syz_noB.png> <./gxz_noB.png>]
-<Part fit.png, id=74, 142.26378pt x 73.97717pt>
+<Part fit.png, id=74, 3011.25pt x 1568.86125pt>
 File: Part fit.png Graphic file (type png)
 <use Part fit.png>
 Package pdftex.def Info: Part fit.png  used on input line 317.
-(pdftex.def)             Requested size: 444.59857pt x 231.21303pt.
+(pdftex.def)             Requested size: 444.59857pt x 231.63245pt.
 <Mean_dist.png, id=75, 217.37906pt x 95.79094pt>
 File: Mean_dist.png Graphic file (type png)
 <use Mean_dist.png>
 Package pdftex.def Info: Mean_dist.png  used on input line 324.
 (pdftex.def)             Requested size: 444.59857pt x 195.92102pt.
- [11 <./gyz_noB.png>] [12 <./Part fit.png (PNG copy)> <./Mean_dist.png (PNG copy)>]
-<Mean_bord.png, id=83, 232.98065pt x 124.81276pt>
+ [11 <./gyz_noB.png>] [12 <./Part fit.png> <./Mean_dist.png (PNG copy)>]
+<Mean_bord.png, id=84, 232.98065pt x 124.81276pt>
 File: Mean_bord.png Graphic file (type png)
 <use Mean_bord.png>
 Package pdftex.def Info: Mean_bord.png  used on input line 351.
 (pdftex.def)             Requested size: 327.59857pt x 175.50987pt.
-<maxlength_div.png, id=84, 123.72206pt x 97.73521pt>
+<maxlength_div.png, id=85, 123.15302pt x 93.94151pt>
 File: maxlength_div.png Graphic file (type png)
 <use maxlength_div.png>
 Package pdftex.def Info: maxlength_div.png  used on input line 373.
-(pdftex.def)             Requested size: 234.0pt x 184.85321pt.
+(pdftex.def)             Requested size: 234.0pt x 178.51219pt.
  [13 <./Mean_bord.png (PNG copy)>] (./SI.bbl)
 
 Class revtex4-1 Warning: Command \draft is obsolete;
 Invoke option draft instead..
 
-[14 <./maxlength_div.png>] (./SI.aux) ) 
+[14 <./maxlength_div.png (PNG copy)>] (./SI.aux) ) 
 Here is how much of TeX's memory you used:
  4485 strings out of 478994
  60331 string characters out of 5858184
@@ -360,7 +360,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  68i,7n,74p,1616b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SI.pdf (14 pages, 8457609 bytes).
+Output written on SI.pdf (14 pages, 8002971 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
