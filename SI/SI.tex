@@ -289,7 +289,9 @@ We obtained the 2D contours (as set of 2D points) of particles with aspect ratio
 (see Figs. 1(a) and 1(b) in the manuscript). The coordinates of these points will be measured in pixels which have to be meant as 
 arbitrary units.
 Then, these contours were fitted by an ellipse ($\mathcal{F}_{e}$) and by the 2D curve which is obtained by projecting a spherocylinder 
-onto a plane parallel to its symmetry axis ($\mathcal{F}_{s}$). In the following, we will refer to latter curve also as 
+onto a plane parallel to its symmetry axis ($\mathcal{F}_{s}$). Fits to $\mathcal{F}_{e}$) were performed by exploiting a recently 
+developed and very efficient algorithm to find the roots of a quartic equation~\cite{DeMicheleACM}.
+In the following, we will refer to latter curve also as 
 ``spherocylinder'' for the sake of simplicity.
 
 If $\mathcal{C}$ is the set of 2D points which forms the contour of a particle, then we can define the distance $d$ between

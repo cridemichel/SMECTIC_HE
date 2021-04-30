@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.29)  30 APR 2021 09:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.29)  30 APR 2021 09:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -323,29 +323,28 @@ File: gyz_noB.png Graphic file (type png)
 <use gyz_noB.png>
 Package pdftex.def Info: gyz_noB.png  used on input line 279.
 (pdftex.def)             Requested size: 234.0pt x 233.98976pt.
- [9 <./Isotropic_phase_snap.png>] [10 <./Syz_noB.png> <./gxz_noB.png>]
-<Part fit.png, id=74, 3011.25pt x 1568.86125pt>
+ [9 <./Isotropic_phase_snap.png>] [10 <./Syz_noB.png> <./gxz_noB.png>] [11 <./gyz_noB.png>]
+<Part fit.png, id=78, 3011.25pt x 1568.86125pt>
 File: Part fit.png Graphic file (type png)
 <use Part fit.png>
-Package pdftex.def Info: Part fit.png  used on input line 318.
+Package pdftex.def Info: Part fit.png  used on input line 320.
 (pdftex.def)             Requested size: 444.59857pt x 231.63245pt.
- [11 <./gyz_noB.png>]
 <Mean_dist.png, id=79, 217.37906pt x 95.79094pt>
 File: Mean_dist.png Graphic file (type png)
 <use Mean_dist.png>
-Package pdftex.def Info: Mean_dist.png  used on input line 325.
+Package pdftex.def Info: Mean_dist.png  used on input line 327.
 (pdftex.def)             Requested size: 444.59857pt x 195.92102pt.
  [12 <./Part fit.png> <./Mean_dist.png (PNG copy)>]
 <Mean_bord.png, id=84, 232.98065pt x 124.81276pt>
 File: Mean_bord.png Graphic file (type png)
 <use Mean_bord.png>
-Package pdftex.def Info: Mean_bord.png  used on input line 353.
+Package pdftex.def Info: Mean_bord.png  used on input line 355.
 (pdftex.def)             Requested size: 327.59857pt x 175.50987pt.
  [13 <./Mean_bord.png (PNG copy)>]
 <maxlength_div.png, id=89, 123.15302pt x 93.94151pt>
 File: maxlength_div.png Graphic file (type png)
 <use maxlength_div.png>
-Package pdftex.def Info: maxlength_div.png  used on input line 375.
+Package pdftex.def Info: maxlength_div.png  used on input line 377.
 (pdftex.def)             Requested size: 234.0pt x 178.51219pt.
  (./SI.bbl)
 
@@ -354,15 +353,15 @@ Invoke option draft instead..
 
 [14 <./maxlength_div.png (PNG copy)>] (./SI.aux) ) 
 Here is how much of TeX's memory you used:
- 4485 strings out of 478994
- 60331 string characters out of 5858184
- 369481 words of memory out of 5000000
- 21928 multiletter control sequences out of 15000+600000
+ 4486 strings out of 478994
+ 60372 string characters out of 5858184
+ 369520 words of memory out of 5000000
+ 21929 multiletter control sequences out of 15000+600000
  411264 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,7n,74p,1616b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SI.pdf (14 pages, 8003587 bytes).
+Output written on SI.pdf (14 pages, 8004983 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
