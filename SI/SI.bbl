@@ -91,12 +91,12 @@
   {McDonald}},\ }\href@noop {} {\emph {\bibinfo {title} {Theory of Simple
   Liquids (Fourth Edition), With Applications to Soft Matter}}}\ (\bibinfo
   {publisher} {Academic Press},\ \bibinfo {year} {2013})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Orellana}\ and\ \citenamefont
-  {Michele}(2020)}]{DeMicheleACM}%
+\bibitem [{\citenamefont {Orellana}\ and\ \citenamefont {{De
+  Michele}}(2020)}]{DeMicheleACM}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~G.}\ \bibnamefont
-  {Orellana}}\ and\ \bibinfo {author} {\bibfnamefont {C.~D.}\ \bibnamefont
-  {Michele}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Algorithm 1010:
+  {Orellana}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{De
+  Michele}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Algorithm 1010:
   Boosting efficiency in solving quartic equations with no compromise in
   accuracy},}\ }\href {\doibase 10.1145/3386241} {\bibfield  {journal}
   {\bibinfo  {journal} {ACM Trans. Math. Softw.}\ }\textbf {\bibinfo {volume}
