@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.29)  30 APR 2021 08:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.29)  30 APR 2021 09:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,33 +274,33 @@ Package pdftex.def Info: Syz_B.png  used on input line 125.
 <gyz_B.png, id=39, 1505.625pt x 1505.625pt>
 File: gyz_B.png Graphic file (type png)
 <use gyz_B.png>
-Package pdftex.def Info: gyz_B.png  used on input line 172.
+Package pdftex.def Info: gyz_B.png  used on input line 173.
 (pdftex.def)             Requested size: 234.0pt x 233.98976pt.
 <gxz_B.png, id=40, 1505.625pt x 1505.625pt>
 File: gxz_B.png Graphic file (type png)
 <use gxz_B.png>
-Package pdftex.def Info: gxz_B.png  used on input line 180.
+Package pdftex.def Info: gxz_B.png  used on input line 181.
 (pdftex.def)             Requested size: 234.0pt x 233.98976pt.
 <gyz_B_HE.png, id=41, 932.48375pt x 859.21pt>
 File: gyz_B_HE.png Graphic file (type png)
 <use gyz_B_HE.png>
-Package pdftex.def Info: gyz_B_HE.png  used on input line 186.
+Package pdftex.def Info: gyz_B_HE.png  used on input line 187.
 (pdftex.def)             Requested size: 187.19714pt x 172.48137pt.
 <gxz_B_HE.png, id=42, 961.5925pt x 870.25125pt>
 File: gxz_B_HE.png Graphic file (type png)
 <use gxz_B_HE.png>
-Package pdftex.def Info: gxz_B_HE.png  used on input line 194.
+Package pdftex.def Info: gxz_B_HE.png  used on input line 195.
 (pdftex.def)             Requested size: 187.19714pt x 169.41281pt.
  [5 <./Syz_B.png>] [6 <./gyz_B.png> <./gxz_B.png>] [7 <./gyz_B_HE.png> <./gxz_B_HE.png>]
 <smordpar.png, id=57, 794.97pt x 614.295pt>
 File: smordpar.png Graphic file (type png)
 <use smordpar.png>
-Package pdftex.def Info: smordpar.png  used on input line 219.
+Package pdftex.def Info: smordpar.png  used on input line 220.
 (pdftex.def)             Requested size: 210.59857pt x 162.73116pt.
 <nemop.png, id=58, 794.97pt x 614.295pt>
 File: nemop.png Graphic file (type png)
 <use nemop.png>
-Package pdftex.def Info: nemop.png  used on input line 220.
+Package pdftex.def Info: nemop.png  used on input line 221.
 (pdftex.def)             Requested size: 210.59857pt x 162.73116pt.
  [8 <./smordpar.png> <./nemop.png>]
 <Isotropic_phase_snap.png, id=64, 991.705pt x 990.70125pt>
@@ -327,25 +327,27 @@ Package pdftex.def Info: gyz_noB.png  used on input line 279.
 <Part fit.png, id=74, 3011.25pt x 1568.86125pt>
 File: Part fit.png Graphic file (type png)
 <use Part fit.png>
-Package pdftex.def Info: Part fit.png  used on input line 317.
+Package pdftex.def Info: Part fit.png  used on input line 318.
 (pdftex.def)             Requested size: 444.59857pt x 231.63245pt.
-<Mean_dist.png, id=75, 217.37906pt x 95.79094pt>
+ [11 <./gyz_noB.png>]
+<Mean_dist.png, id=79, 217.37906pt x 95.79094pt>
 File: Mean_dist.png Graphic file (type png)
 <use Mean_dist.png>
-Package pdftex.def Info: Mean_dist.png  used on input line 324.
+Package pdftex.def Info: Mean_dist.png  used on input line 325.
 (pdftex.def)             Requested size: 444.59857pt x 195.92102pt.
- [11 <./gyz_noB.png>] [12 <./Part fit.png> <./Mean_dist.png (PNG copy)>]
+ [12 <./Part fit.png> <./Mean_dist.png (PNG copy)>]
 <Mean_bord.png, id=84, 232.98065pt x 124.81276pt>
 File: Mean_bord.png Graphic file (type png)
 <use Mean_bord.png>
-Package pdftex.def Info: Mean_bord.png  used on input line 351.
+Package pdftex.def Info: Mean_bord.png  used on input line 353.
 (pdftex.def)             Requested size: 327.59857pt x 175.50987pt.
-<maxlength_div.png, id=85, 123.15302pt x 93.94151pt>
+ [13 <./Mean_bord.png (PNG copy)>]
+<maxlength_div.png, id=89, 123.15302pt x 93.94151pt>
 File: maxlength_div.png Graphic file (type png)
 <use maxlength_div.png>
-Package pdftex.def Info: maxlength_div.png  used on input line 373.
+Package pdftex.def Info: maxlength_div.png  used on input line 375.
 (pdftex.def)             Requested size: 234.0pt x 178.51219pt.
- [13 <./Mean_bord.png (PNG copy)>] (./SI.bbl)
+ (./SI.bbl)
 
 Class revtex4-1 Warning: Command \draft is obsolete;
 Invoke option draft instead..
@@ -354,13 +356,13 @@ Invoke option draft instead..
 Here is how much of TeX's memory you used:
  4485 strings out of 478994
  60331 string characters out of 5858184
- 368481 words of memory out of 5000000
+ 369481 words of memory out of 5000000
  21928 multiletter control sequences out of 15000+600000
  411264 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,7n,74p,1616b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SI.pdf (14 pages, 8002971 bytes).
+Output written on SI.pdf (14 pages, 8003587 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
